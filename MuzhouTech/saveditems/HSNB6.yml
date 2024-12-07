@@ -1,0 +1,27 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§c§l火§4§l山§6§l神§e§l镐"}'
+    enchants:
+      DIG_SPEED: 255
+      LOOT_BONUS_BLOCKS: 255
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 50.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+        slot: HAND
+        uuid: f86720fa-bf92-4a9d-a19b-d2ee085fd040
+        operation: 0
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 1.0E7
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+        slot: HAND
+        uuid: 69f5b10d-2e41-482f-8018-a254f2696a86
+        operation: 0
+    Unbreakable: true

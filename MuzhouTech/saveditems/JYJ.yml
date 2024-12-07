@@ -1,0 +1,29 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§8§l基岩剑"}'
+    enchants:
+      FIRE_ASPECT: 255
+      LOOT_BONUS_MOBS: 255
+      DAMAGE_ALL: 255
+      SWEEPING_EDGE: 3
+    attribute-modifiers:
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+        slot: HAND
+        uuid: 08fbf437-5c6c-4746-8d93-d077052681d3
+        operation: 0
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+        slot: HAND
+        uuid: 3a652366-be38-4eb3-9d77-528398234d59
+        operation: 0
+    Unbreakable: true

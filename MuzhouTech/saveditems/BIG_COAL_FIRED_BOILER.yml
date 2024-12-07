@@ -1,0 +1,24 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"大型燃煤"},{"bold":true,"italic":false,"color":"white","text":"锅炉"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"比小型的更快!"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"燃料为燃煤的大型锅炉"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"需要少量电力让其内部变得明亮"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"机器"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"100
+      J 可存储"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"200
+      J/s"}],"text":""}'
+    internal: H4sIAAAAAAAA/02PTU6DQBhAP01NcPQaLk1oG2pYaKyg7RBmkFKgsCswlZ+ZtqFQgQt4BQ+insW1G68hS5cv720eAkBw6RQ158/lbpNxJsGArgUDpDnX2q5kZhYhQL3cs7LK2OEcpIo1VV2yAwKAEwnOvDWvGXyw1pDDVSonK4PHLZ70vHRkbuF8f4O3XhtpeIJF7+fTidmq/1qlWvsKD8ZGGm7tOhKebI4XnM0Xw1i4R+LbLcmDhnRJGuZTxfI9QZdxS2buq6XbMhUGJ6PHIdVfOmuJR6R7KOgoLGgX8lB/yqgfKEQPGqobRSDcjsy8lDqGulnJtwAXcIqTfmTwxe7d2Y9694m+B79v71cAf6zk53QdAQAA
+    PublicBukkitValues:
+      slimefun:slimefun_item: BIG_COAL_FIRED_BOILER
+    skull-owner: CS-CoreLib

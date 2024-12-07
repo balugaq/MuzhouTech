@@ -1,0 +1,30 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§d带抓钩的剑"}'
+    lore:
+    - '{"text":"§c100%掉抓钩，概率性掉箭和栓绳"}'
+    - '{"text":"§b无法破坏；强化武器；当弓使"}'
+    - '{"text":"§e右键使用带抓钩的剑"}'
+    custom-model-data: 2200131
+    enchants:
+      FIRE_ASPECT: 5
+      KNOCKBACK: 5
+      LOOT_BONUS_MOBS: 5
+      DAMAGE_ALL: 10
+      SWEEPING_EDGE: 3
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    Unbreakable: true
+    PublicBukkitValues:
+      slimefun:slimefun_item: GRAPPLING_HOOK

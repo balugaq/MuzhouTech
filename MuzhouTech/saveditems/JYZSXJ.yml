@@ -1,0 +1,31 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§f基岩钻石胸甲"}'
+    attribute-modifiers:
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 17.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+        slot: CHEST
+        uuid: a48153af-c9a6-422c-ad10-c923a0732d96
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 17.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+        slot: CHEST
+        uuid: 1dfa9bfe-579a-4935-bde8-b0b1d22d447a
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.3
+        name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+        slot: CHEST
+        uuid: 18c4b38c-71c3-4491-8bf4-edaa0a53a604
+        operation: 0
+    Unbreakable: true

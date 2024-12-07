@@ -1,0 +1,20 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3218
+  type: NETHERITE_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"心孜胸甲"}],"text":""}'
+    lore:
+    - '{"italic":false,"extra":[{"color":"gray","text":"力量 100"}],"text":""}'
+    - '{"italic":false,"extra":[{"color":"gray","text":"抗性提升5"}],"text":""}'
+    - '{"italic":false,"extra":[{"color":"gray","text":"火焰保护1"}],"text":""}'
+    - '{"italic":false,"extra":[{"color":"gray","text":"生命恢复50"}],"text":""}'
+    - '{"italic":false,"extra":[{"color":"gray","text":"生命提升50"}],"text":""}'
+    enchants:
+      PROTECTION_EXPLOSIONS: 255
+      PROTECTION_FIRE: 255
+      PROTECTION_PROJECTILE: 255
+      PROTECTION_ENVIRONMENTAL: 255
+      THORNS: 255

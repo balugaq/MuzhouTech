@@ -1,0 +1,27 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"yellow","text":"|||"},{"bold":true,"italic":false,"obfuscated":false,"color":"aqua","text":"天启之镰"},{"bold":true,"italic":false,"obfuscated":true,"color":"yellow","text":"|||"}],"text":""}'
+    enchants:
+      FIRE_ASPECT: 255
+      LOOT_BONUS_MOBS: 255
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+        slot: HAND
+        uuid: df5a34d8-2873-4b3b-be02-321cb702f24e
+        operation: 0
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+        slot: HAND
+        uuid: 22ef4434-b513-4d96-a846-a37680e192bc
+        operation: 0
+    Unbreakable: true

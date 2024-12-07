@@ -1,0 +1,30 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DIAMOND_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"火"},{"bold":true,"italic":false,"color":"dark_aqua","text":"莱"},{"bold":true,"italic":false,"color":"blue","text":"伊"},{"bold":true,"italic":false,"color":"dark_blue","text":"护"},{"bold":false,"italic":false,"color":"dark_purple","text":"腿"}],"text":""}'
+    enchants:
+      PROTECTION_EXPLOSIONS: 50
+      PROTECTION_FALL: 50
+      PROTECTION_FIRE: 50
+      PROTECTION_PROJECTILE: 50
+      PROTECTION_ENVIRONMENTAL: 50
+    attribute-modifiers:
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 20.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+        slot: LEGS
+        uuid: 7b529558-1b0b-4b3f-a653-e44d6f31a24f
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 20.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+        slot: LEGS
+        uuid: 9c4eb08f-ea39-4f59-977c-d258a2cf4699
+        operation: 0
+    Unbreakable: true

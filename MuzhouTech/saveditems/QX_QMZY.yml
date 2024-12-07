@@ -1,0 +1,30 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: DIAMOND_SHOVEL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '§5[§b七夕§5]§7-§b情梦之忆'
+    lore:
+    - §6《=----=-<§4===§6>-=----=》
+    - §c->类型:§d七夕限定
+    - §c->情梦回忆:§d【锋利32767】
+    - §6《=----=-<§4===§6>-=----=》
+    - §c§l武器技能
+    - §5§l-》情梦回忆
+    - §5§l-》情何物
+    - §5§l-》问情回忆
+    - §6《=----=-<§4===§6>-=----=》§5§l介绍
+    - §d§l七夕限定特殊§5§l武器
+    - §5§l[问情之伤]
+    - §5§l[情何物]
+    - §5§l[只为梦之所回忆]
+    - §5§l[便让其随风逝。。]
+    - §d§l七夕专属套装
+    enchants:
+      FIRE_ASPECT: 1
+      DAMAGE_ALL: 32767
+    PublicBukkitValues:
+      slimefun:slimefun_item: BLADE_OF_VAMPIRES
+    Damage: 1560

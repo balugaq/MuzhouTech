@@ -1,0 +1,30 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"古代符文
+      "},{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gold","text":"附魔"},{"bold":true,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"把符文丢向你已经丢出的"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"需要被
+      "},{"italic":false,"color":"gold","text":"附魔 "},{"italic":false,"color":"yellow","text":"的物品"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"该物品会获得一个随机的附魔属性."}],"text":""}'
+    custom-model-data: 2200418
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    PublicBukkitValues:
+      slimefun:slimefun_item: ANCIENT_RUNE_ENCHANTMENT
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 255
+        BLUE: 25
+        GREEN: 217
+      fade-colors: []
+      type: BURST

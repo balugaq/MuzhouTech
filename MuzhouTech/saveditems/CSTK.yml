@@ -1,0 +1,52 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§a§l创世头盔"}'
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 255
+      PROTECTION_FIRE: 255
+      PROTECTION_PROJECTILE: 255
+      PROTECTION_ENVIRONMENTAL: 255
+      OXYGEN: 255
+    attribute-modifiers:
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+        slot: HEAD
+        uuid: 9918ca6f-bf14-44b3-a782-dfff69b44378
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+        slot: HEAD
+        uuid: bb3f0bf4-f8ec-4129-b83c-743fb8e2c16e
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+        slot: HEAD
+        uuid: 8bb32c7e-9fda-47a8-9ea6-97aa8da70188
+        operation: 0
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+        slot: HEAD
+        uuid: 2f37ff76-4508-4511-ae48-0bfdd2c8128b
+        operation: 0
+      GENERIC_LUCK:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.luck]
+        slot: HEAD
+        uuid: 4e924195-5783-4706-820d-8e6f60534b9f
+        operation: 0
+    Unbreakable: true

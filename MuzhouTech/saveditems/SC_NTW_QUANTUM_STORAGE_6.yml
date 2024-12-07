@@ -1,0 +1,25 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"网络量子存储
+      (134M)"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"可存储
+      134217728 个物品"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"在量子奇点中存储大量物品"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"机器"}],"text":""}'
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: a9e93267-0cb3-4910-9c8c-1ab7c12b64f9
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA3YzA0OTE4MTYzMmUzYTYwM2VlZWU5MjI2Yzg3MWE5Nzk3NWEwZDgzMzBlNjEzYTJiZDU4Y2E1NzMzYWRmNSJ9fX0=
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_QUANTUM_STORAGE_6

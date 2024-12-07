@@ -1,0 +1,14 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: ARROW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§e毛刷"}'
+    lore:
+    - '{"text":"§a对着砂砾使用"}'
+    - '{"text":"§e右键使用毛刷"}'
+    custom-model-data: 2200053
+    PublicBukkitValues:
+      slimefun:slimefun_item: GOLD_PAN

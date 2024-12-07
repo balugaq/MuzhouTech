@@ -1,0 +1,34 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: REDSTONE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"❤"},{"bold":true,"italic":false,"color":"red","text":"血量宝石"},{"bold":true,"italic":false,"color":"dark_red","text":"❤"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"手持可以提升血量"}],"text":""}'
+    enchants:
+      SILK_TOUCH: 1
+    attribute-modifiers:
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 10.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+        slot: HAND
+        uuid: 3fa73152-28e9-4b4a-8316-2c7577cb97a3
+        operation: 0
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 10.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+        slot: OFF_HAND
+        uuid: e37c8937-7d6f-434d-ad2a-37569d5b7299
+        operation: 0
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE

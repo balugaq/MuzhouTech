@@ -1,0 +1,28 @@
+id: MuzhouTech
+name: 暮舟科技
+depends: []
+pluginDepends:
+- Slimefun
+- GuizhanLibPlugin
+- LiteXpansion
+- TranscEndence
+- InfinityExpansion
+- FoxyMachines
+- DynaTech
+- Networks
+- CrystamaeHistoria
+- MomoTech
+- SlimefunOreChunks
+- SlimyTreeTaps
+- FinalTECH
+- Supreme
+- Huolaiy
+- GeneticChickengineering
+- SimpleMaterialGenerators
+- FNAmplifications
+- OreGeneration
+version: 1.0 SNAPSHOT
+description: 暮舟科技
+authors:
+- tinalness
+repo: ''

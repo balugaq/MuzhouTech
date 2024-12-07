@@ -1,0 +1,9 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3105
+  type: AXOLOTL_BUCKET
+  meta:
+    ==: ItemMeta
+    meta-type: AXOLOTL_BUCKET
+    internal: H4sIAAAAAAAA/+NiYGBmYHZMT2UAAlYGNo/UxJySDMcEIA8AQRpJyhsAAAA=
+    axolotl-variant: 0

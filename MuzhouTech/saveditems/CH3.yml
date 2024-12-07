@@ -1,0 +1,44 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LEATHER_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_blue","text":"彩"},{"italic":false,"color":"dark_green","text":"虹"},{"italic":false,"color":"yellow","text":"护"},{"italic":false,"color":"red","text":"腿"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"牢固的抗性！"}],"text":""}'
+    enchants:
+      PROTECTION_EXPLOSIONS: 4
+      PROTECTION_PROJECTILE: 10
+      PROTECTION_ENVIRONMENTAL: 10
+      DURABILITY: 32
+    attribute-modifiers:
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 8.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+        slot: LEGS
+        uuid: a09cba34-7d80-49d8-8b2d-21d775bd92d5
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 5.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+        slot: LEGS
+        uuid: 91c9ce16-d93a-4812-bc69-312519cd3a2a
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.1
+        name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+        slot: LEGS
+        uuid: 618513c5-b881-470c-88c0-01e96227f407
+        operation: 0
+    ItemFlags:
+    - HIDE_DYE
+    color:
+      ==: Color
+      RED: 241
+      BLUE: 57
+      GREEN: 187

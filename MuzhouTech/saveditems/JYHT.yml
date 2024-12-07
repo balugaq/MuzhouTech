@@ -1,0 +1,40 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NETHERITE_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: ARMOR
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"基岩护腿"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"抗辐射"}],"text":""}'
+    enchants:
+      PROTECTION_EXPLOSIONS: 255
+      PROTECTION_FIRE: 255
+      PROTECTION_PROJECTILE: 255
+      PROTECTION_ENVIRONMENTAL: 255
+    attribute-modifiers:
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+        slot: LEGS
+        uuid: 0bffbe52-1477-4062-96e3-5e91e3ed4c15
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+        slot: LEGS
+        uuid: 77564713-b96c-47b9-a2a9-21cee78c0498
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+        slot: LEGS
+        uuid: 0e3b915d-a569-45a1-a1de-661714ce6ae6
+        operation: 0
+    Unbreakable: true
+    PublicBukkitValues:
+      slimefun:slimefun_item: INFINITY_LEGGINGS

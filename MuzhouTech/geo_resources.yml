@@ -1,0 +1,633 @@
+HAIMAN_STAR_DUST:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&6&l海曼星尘'
+    lore:
+    - '&7旧世界留下的神秘尘埃'
+    material_type: skull_hash
+    material: 1cf677ca6209961e81beeb3aa274e0ec8d21d36778e5a94b80b1d8425b04ac6e
+  max_deviation: 1
+  geo_name: '&6&l海曼星尘'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 1
+SC_QUIRP_UP:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    lore:
+    - ''
+    material_type: saveditem
+    material: QUIRP_UP
+  max_deviation: 1
+  geo_name: ''
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 20
+    nether: 20
+    the_end: 20
+SC_QUIRP_DOWN:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    lore:
+    - ''
+    material_type: saveditem
+    material: QUIRP_DOWN
+  max_deviation: 1
+  geo_name: ''
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 20
+    nether: 20
+    the_end: 20
+SC_QUIRP_LEFT:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    lore:
+    - ''
+    material_type: saveditem
+    material: QUIRP_LEFT
+  max_deviation: 1
+  geo_name: ''
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 20
+    nether: 20
+    the_end: 20
+SC_QUIRP_RIGHT:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    lore:
+    - ''
+    material_type: saveditem
+    material: QUIRP_RIGHT
+  max_deviation: 1
+  geo_name: ''
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 20
+    nether: 20
+    the_end: 20
+IRON_ORE_RAW:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b铁矿'
+    lore:
+    - '&7在矿机采集'
+    material_type: mc
+    material: RAW_IRON
+  max_deviation: 128
+  geo_name: '&b铁矿'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+COPPER_ORE_RAW:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b铜矿'
+    lore:
+    - '&7在矿机采集'
+    material_type: mc
+    material: RAW_COPPER
+  max_deviation: 128
+  geo_name: '&b铜矿'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+DINAS_ROCK:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b硅石'
+    lore:
+    - '&7在矿机采集'
+    - '&7或在&b电弧熔炉&7内制作'
+    material_type: mc
+    material: EMERALD
+  max_deviation: 128
+  geo_name: '&b硅石'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+TITANIUM_STONE:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b钛石'
+    lore:
+    - '&7在矿机采集'
+    material_type: mc
+    material: FLINT
+  max_deviation: 128
+  geo_name: '&b钛石'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+COMBUSTIBLE_ICE:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b可燃冰'
+    lore:
+    - '&7在矿机采集'
+    material_type: mc
+    material: SUGAR
+  max_deviation: 128
+  geo_name: '&b可燃冰'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+HYDROGEN:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b氢'
+    lore:
+    - '&7在矿机采集'
+    - '&7或在&b分馏塔&7内制作'
+    material_type: mc
+    material: BONE_MEAL
+  max_deviation: 128
+  geo_name: '&b氢'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+GRATING_STONE:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b光栅石'
+    lore:
+    - '&7在矿机采集'
+    material_type: mc
+    material: AMETHYST_CLUSTER
+  max_deviation: 128
+  geo_name: '&b光栅石'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+FRACTAL_SILICA:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b分形硅石'
+    lore:
+    - '&7在矿机采集'
+    material_type: mc
+    material: PRISMARINE_CRYSTALS
+  max_deviation: 128
+  geo_name: '&b分形硅石'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+SPINY_BAMBOO_SHOOT_CRYSTAL:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b刺笋结晶'
+    lore:
+    - '&7在矿机采集'
+    material_type: mc
+    material: PRISMARINE_SHARD
+  max_deviation: 128
+  geo_name: '&b刺笋结晶'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+UNIPOLAR_MAGNET:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b单极磁石'
+    lore:
+    - '&7在矿机采集'
+    material_type: mc
+    material: MELON_SEEDS
+  max_deviation: 128
+  geo_name: '&b单极磁石'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+KIMBERLEY_ORE:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b金伯利矿石'
+    lore:
+    - '&7在矿机采集'
+    material_type: mc
+    material: IRON_NUGGET
+  max_deviation: 128
+  geo_name: '&b金伯利矿石'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+DEUTERIUM:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b重氢'
+    lore:
+    - '&7在矿机采集'
+    material_type: mc
+    material: BONE_MEAL
+  max_deviation: 128
+  geo_name: '&b重氢'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+CRITICAL_PHOTON:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b临界光子'
+    lore:
+    - '&7在矿机采集'
+    material_type: mc
+    material: GLOW_INK_SAC
+  max_deviation: 128
+  geo_name: '&b临界光子'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+ANTIMATTER:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b反物质'
+    lore:
+    - '&7在矿机采集'
+    material_type: mc
+    material: BLACK_DYE
+  max_deviation: 128
+  geo_name: '&b反物质'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 16
+    nether:
+      plains: 16
+    the_end:
+      plains: 16
+VOID_MINER:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b凝聚虚空中的结晶体'
+    lore:
+    - '&7需要在末地进行开采'
+    material_type: mc
+    material: POPPED_CHORUS_FRUIT
+  max_deviation: 4
+  geo_name: '&b凝聚虚空中的结晶体'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    the_end: 2
+HELL_MINER:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b凝聚熔岩中的结晶体'
+    lore:
+    - '&7需要在地狱进行开采'
+    material_type: mc
+    material: BLAZE_POWDER
+  max_deviation: 4
+  geo_name: '&b凝聚熔岩中的结晶体'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    nether: 2
+PLAIN_MINER:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b凝聚气体中的结晶体'
+    lore:
+    - '&7需要在平原进行开采'
+    material_type: mc
+    material: FEATHER
+  max_deviation: 4
+  geo_name: '&b凝聚气体中的结晶体'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 2
+    nether:
+      plains: 2
+    the_end:
+      plains: 2
+SEA_MINER:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b凝聚湖泊中的结晶体'
+    lore:
+    - '&7需要在湖泊群系进行开采'
+    material_type: mc
+    material: PRISMARINE_CRYSTALS
+  max_deviation: 4
+  geo_name: '&b凝聚湖泊中的结晶体'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      plains: 2
+    nether:
+      plains: 2
+    the_end:
+      plains: 2
+TI:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&f钛'
+    lore: []
+    material_type: skull_hash
+    material: 324d23f0bb3e750ae4fe10a2a8490e8a028806b8a954c457be379d02b7d46502
+  max_deviation: 2
+  geo_name: '&f钛'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 8
+LI:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&f锂'
+    lore: []
+    material_type: skull_hash
+    material: 316e503e28148278d7406eb9c52dc0048460a72c5d09d7406044a1bf94bc44a4
+  max_deviation: 1
+  geo_name: '&f锂'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 10
+NA:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&f钠'
+    lore: []
+    material_type: skull_hash
+    material: f0648c02141d1d0b342bca92e9b2a7c41489d9cf0195b5e98e45d69efe937e5e
+  max_deviation: 1
+  geo_name: '&f钠'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 16
+NORCRY:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&f天然晶体'
+    lore: []
+    material_type: skull_hash
+    material: 64b54f3e6a7016a14e76eedc53040f4960581bacac814ffb5816fae1a14b018d
+  max_deviation: 2
+  geo_name: '&f天然晶体'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 2
+DESERT_JT:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&e沙漠晶体'
+    lore:
+    - ''
+    - '&7沙漠特产自然资源'
+    material_type: skull_hash
+    material: 8c40f3d9b684bfda1d87c500bd3f14d79ef83a0ee70e3cb53390dede73799e86
+  max_deviation: 2
+  geo_name: '&e沙漠晶体'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      desert: 32
+    nether:
+      desert: 32
+    the_end:
+      desert: 32
+XC_XC:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&9星尘'
+    lore:
+    - '&o星际中的尘埃'
+    - ''
+    - '&3星辰工艺材料'
+    material_type: mc
+    material: GUNPOWDER
+  max_deviation: 1
+  geo_name: '&9星尘'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 1
+    the_end: 2
+BOCCHI_EGOBKL:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&b波奇'
+    lore:
+    - '&7guitar hero'
+    material_type: skull_hash
+    material: c31c61dc7f2d09ca20d75e5945777e5f06d0629318cd251ad8d4d9e81f00518c
+  max_deviation: 1
+  geo_name: '&b波奇'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      beach: 30
+      others: 58
+    nether:
+      beach: 30
+      others: 58
+    the_end:
+      beach: 30
+      others: 58
+LIANG_EGOLQC:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&3凉乞钞'
+    lore:
+    - '&7借钱要还?有没有王法了'
+    material_type: skull_hash
+    material: 4548789b968c70ec9d1de272d0bb93a70134f2c0e60acb75e8d455a1650f3977
+  max_deviation: 1
+  geo_name: '&3凉乞钞'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      beach: 56
+      others: 78
+    nether:
+      beach: 56
+      others: 78
+    the_end:
+      beach: 56
+      others: 78
+XDYD_EGOGQLX:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&3归去来兮'
+    lore:
+    - '&7一路走好(bushi)'
+    material_type: skull_hash
+    material: 548d7d1e03e1af145b0125ab841285672b421265da2ab915015f9058438ba2d8
+  max_deviation: 1
+  geo_name: '&3归去来兮'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      beach: 65
+      others: 56
+    nether:
+      beach: 65
+      others: 56
+    the_end:
+      beach: 65
+      others: 56
+HXMM_EGOGQLX:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&3虹夏'
+    lore:
+    - '&7世上只有妈妈好'
+    material_type: skull_hash
+    material: 6c183f3601f67293a51e2577dbea05a4602efa433cc354e63fcf7fbe026486bc
+  max_deviation: 1
+  geo_name: '&3虹夏'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal:
+      beach: 67
+      others: 55
+    nether:
+      beach: 67
+      others: 55
+    the_end:
+      beach: 67
+      others: 55
+DERULE_BUG:
+  lateInit: false
+  item_group: rsc_geo_resources
+  item:
+    name: '&4&l反规则bug'
+    lore:
+    - '&7违反逻辑的漏洞'
+    material_type: skull_hash
+    material: 4fc6fc2af2c411fa698840dc46311ff26e92153ae2f4f6187b765de2323be2c8
+  max_deviation: 1
+  geo_name: '&4&l反规则bug'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    nether: 1

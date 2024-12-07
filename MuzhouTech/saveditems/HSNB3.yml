@@ -1,0 +1,38 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§c§l火§4§l山§6§l护§e§l腿"}'
+    enchants:
+      PROTECTION_EXPLOSIONS: 255
+      PROTECTION_FALL: 255
+      PROTECTION_FIRE: 255
+      PROTECTION_PROJECTILE: 255
+      PROTECTION_ENVIRONMENTAL: 255
+      THORNS: 255
+    attribute-modifiers:
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 1.0E7
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+        slot: LEGS
+        uuid: 04838a0a-c5da-4781-8636-93953947389e
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 1.0E7
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+        slot: LEGS
+        uuid: 14d15a7d-b4ab-46c4-88c1-9089e1d13b8f
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 1.0E7
+        name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+        slot: LEGS
+        uuid: 52180363-53c4-4d11-ba2f-294564ed9c50
+        operation: 0
+    Unbreakable: true

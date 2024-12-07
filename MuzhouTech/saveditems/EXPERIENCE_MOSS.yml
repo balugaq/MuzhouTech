@@ -1,0 +1,12 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3105
+  type: MOSS_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '[{"text":"经验苔藓","color":"yellow","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]'
+    lore:
+    - '{"text":"由经验汇聚而成","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}'
+    enchants:
+      MENDING: 1

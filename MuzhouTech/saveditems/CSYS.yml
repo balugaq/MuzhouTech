@@ -1,0 +1,59 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"text":"§a§l创世§e§l药水"}'
+    potion-type: minecraft:water
+    custom-effects:
+    - ==: PotionEffect
+      effect: 10
+      duration: 9999999
+      amplifier: 127
+      ambient: false
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 11
+      duration: 9999999
+      amplifier: 127
+      ambient: false
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 12
+      duration: 9999999
+      amplifier: 127
+      ambient: false
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 13
+      duration: 9999999
+      amplifier: 127
+      ambient: false
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 16
+      duration: 9999999
+      amplifier: 127
+      ambient: false
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 32
+      duration: 9999999
+      amplifier: 127
+      ambient: false
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 23
+      duration: 9999999
+      amplifier: 127
+      ambient: false
+      has-particles: true
+      has-icon: true

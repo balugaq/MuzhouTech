@@ -1,0 +1,13 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3105
+  type: END_ROD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '[{"text":"白空的棒子","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]'
+    lore:
+    - '{"text":"巨硬！！！","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}'
+    enchants:
+      KNOCKBACK: 10
+      DAMAGE_ALL: 10

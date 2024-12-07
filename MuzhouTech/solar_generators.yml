@@ -1,0 +1,2958 @@
+VAGETABLE_SOLAR_GENERATOR:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b&l新手太阳能发电机'
+    lore:
+    - '&7为新手提供福利,并且能在白天和夜晚发电!'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 4 J/s (昼)'
+    - '&8⇨ &e⚡&7 2 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: BLAZE_POWDER
+      amount: 1
+    3:
+      material_type: mc
+      material: BLAZE_POWDER
+      amount: 1
+    4:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    6:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    7:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    8:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    9:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 2
+  nightEnergy: 1
+  capacity: 2
+HAIMAN_EARTH_GENERATOR:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&9&l地球发电机'
+    lore:
+    - '&7运用地球自身的能量进行发电'
+    - '&b必须用水包围'
+    - '&b上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 1,760 J/s (昼)'
+    - '&8⇨ &e⚡&7 1,800 J/s (夜)'
+    material: TUBE_CORAL
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BIG_CAPACITOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BIG_CAPACITOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: STEEL_PLATE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ANCIENT_RUNE_EARTH
+      amount: 1
+    9:
+      material_type: slimefun
+      material: STEEL_PLATE
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 880
+  nightEnergy: 900
+  capacity: 900
+HAIMAN_SEND_CACTUS_GENERATOR:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&9&l沙漠发电机'
+    lore:
+    - '&7运用沙漠的能量进行发电'
+    - '&e必须放置在沙子上'
+    - '&e四周不能放置方块'
+    - '&e头顶需要放置透明方块'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 1,240 J/s (昼)'
+    - '&8⇨ &e⚡&7 2,000 J/s (夜)'
+    material: CACTUS
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ANCIENT_RUNE_AIR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANCIENT_ITEM
+      amount: 1
+    5:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANCIENT_ITEM
+      amount: 1
+    7:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 620
+  nightEnergy: 1000
+  capacity: 1000
+HAIMAN_END_GENERATOR:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b&l末地发电机'
+    lore:
+    - '&7从末地石中汲取能量发电'
+    - '&d必须放置在末地石上上'
+    - '&d上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 170 J/s (昼)'
+    - '&8⇨ &e⚡&7 1,500 J/s (夜)'
+    material: CHORUS_PLANT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    4:
+      material_type: mc
+      material: END_STONE_BRICKS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    6:
+      material_type: mc
+      material: END_STONE_BRICKS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 85
+  nightEnergy: 750
+  capacity: 750
+HIGH_VOLTAGE_TRANSMISSION_LINES:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&f&l高压输电线'
+    lore:
+    - '&7这是一根可以为你供电的高压线'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 4 J/s (昼)'
+    - '&8⇨ &e⚡&7 2 J/s (夜)'
+    material: CHAIN
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 2
+  nightEnergy: 1
+  capacity: 2
+HAIMAN_POWER_NET:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b&l海曼牌电网'
+    lore:
+    - '&7这是一个可以爬在墙上发电的电网'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 12 J/s (昼)'
+    - '&8⇨ &e⚡&7 4 J/s (夜)'
+    material: VINE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 6
+  nightEnergy: 2
+  capacity: 6
+GUANGYUAN_FADIAN:
+  lateInit: true
+  item_group: rsc_generators
+  item:
+    name: '&e&l隐形光源发电机'
+    lore:
+    - '&7你完全看不到它在哪里'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 4000 J/s (昼)'
+    - '&8⇨ &e⚡&7 7000 J/s (夜)'
+    material: LIGHT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CRAFTING_MOTOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HM_SHENQUAN_HEXIN
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CRAFTING_MOTOR
+      amount: 1
+    4:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    5:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    6:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 2000
+  nightEnergy: 3500
+  capacity: 3500
+FUZHU_GENERATOR:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&f腐竹专用发电机'
+    lore:
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 4,294,960,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 4,294,960,000 J/s (夜)'
+    material_type: skull_hash
+    material: 65333ccc4075cef0de045b090a72b4fd5417f91e9e908b623fbbe48766d2aff5
+  recipe_type: 'NULL'
+  recipe:
+    5:
+      material_type: slimefun
+      material: UNCRAFTABLE
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 2147480000
+  nightEnergy: 2147480000
+  capacity: 2147480000
+SOLAR_JXFDJ:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b&l极限&8太阳能'
+    lore:
+    - '&7从阳光中提取能量'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 134,217,728 J/s (昼)'
+    - '&8⇨ &e⚡&7 134,217,728 J/s (夜)'
+    material_type: skull_hash
+    material: f142a35ac0b055ed50a5cbf870b6ef1cc1f94e2642b9ba650c9e0385e6cbe36
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: QHZZ
+      amount: 1
+    2:
+      material_type: slimefun
+      material: WJCZK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: QHZZ
+      amount: 1
+    4:
+      material_type: slimefun
+      material: WJDLB
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WJFDJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: WJDLB
+      amount: 1
+    7:
+      material_type: slimefun
+      material: INFINITE_PANEL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITE_PANEL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFINITE_PANEL
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 67108864
+  nightEnergy: 67108864
+  capacity: 67108864
+SUPER_SOLAR_GENERATOR_I:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&6&l SUPER &2&l太阳能发电机 &b&lI'
+    lore:
+    - '&b&lI &7级太阳能发电机'
+    - '&b上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 10,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 10,000 J/s (夜)'
+    material_type: skull_hash
+    material: bcfe8684827b0513e310b45e802376e133f1a282fdc1350cdd4f7bea1bcc79ef
+  recipe_type: 'NULL'
+  recipe:
+    5:
+      material_type: slimefun
+      material: UNCRAFTABLE
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 5000
+  nightEnergy: 5000
+  capacity: 5000
+SUPER_SOLAR_GENERATOR_II:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&6&l SUPER &2&l太阳能发电机 &b&lII'
+    lore:
+    - '&b&lII &7级太阳能发电机'
+    - '&b上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 100,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 100,000 J/s (夜)'
+    material_type: skull_hash
+    material: d827bf889869d7433dfd9e0cec6fd8f444fd2b622673cf2416655ee30e67772f
+  recipe_type: SMELTERY
+  recipe:
+    1:
+      material_type: slimefun
+      material: SUPER_SOLAR_GENERATOR_I
+      amount: 10
+  lightLevel: 1
+  dayEnergy: 50000
+  nightEnergy: 50000
+  capacity: 50000
+SUPER_SOLAR_GENERATOR_III:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&6&l SUPER &2&l太阳能发电机 &b&lIII'
+    lore:
+    - '&b&lIII &7级太阳能发电机'
+    - '&b上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 1,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 1,000,000 J/s (夜)'
+    material_type: skull_hash
+    material: 5b60d94b3583ac6de13d49a075acf1502e2e81c5b1a52219fcc751f98209c7ab
+  recipe_type: SMELTERY
+  recipe:
+    1:
+      material_type: slimefun
+      material: SUPER_SOLAR_GENERATOR_II
+      amount: 10
+  lightLevel: 1
+  dayEnergy: 500000
+  nightEnergy: 500000
+  capacity: 500000
+SUPER_SOLAR_GENERATOR_IV:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&6&l SUPER &2&l太阳能发电机 &b&lIV'
+    lore:
+    - '&b&lIV &7级太阳能发电机'
+    - '&b上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 10,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 10,000,000 J/s (夜)'
+    material_type: skull_hash
+    material: 4a6ac899dcfcfb96ab6b72a13005e9a11159d82157f1538b6f6a0bee7844aa02
+  recipe_type: SMELTERY
+  recipe:
+    1:
+      material_type: slimefun
+      material: SUPER_SOLAR_GENERATOR_III
+      amount: 10
+  lightLevel: 1
+  dayEnergy: 5000000
+  nightEnergy: 5000000
+  capacity: 5000000
+SUPER_SOLAR_GENERATOR_V:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&6&l SUPER &2&l太阳能发电机 &b&lV'
+    lore:
+    - '&b&lV &7级太阳能发电机'
+    - '&b上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 100,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 100,000,000 J/s (夜)'
+    material_type: skull_hash
+    material: 4e234690b65674693de31095878c115c919a713ab8a8a667e05bf993799a97e9
+  recipe_type: SMELTERY
+  recipe:
+    1:
+      material_type: slimefun
+      material: SUPER_SOLAR_GENERATOR_IV
+      amount: 10
+  lightLevel: 1
+  dayEnergy: 50000000
+  nightEnergy: 50000000
+  capacity: 50000000
+SC_SUPREME_BASIC_SOLAR_GENERATOR:
+  lateInit: true
+  item_group: rsc_alternative_generators
+  item:
+    name: '&9&l基础太阳能发电机'
+    lore:
+    - '&7&l该发电机通过 &c&l平替转换机 &7&l转换而成'
+    - '&7&l只能在&b&l主世界&7&l发电'
+    - '&b上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 5,500 J/s (昼)'
+    - '&8⇨ &e⚡&7 5,500 J/s (夜)'
+    material: ORANGE_CONCRETE
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: SC_SUPREME_BASIC_GENERATOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SC_SUPREME_TRANSFORMATION_MACHINE_INFO
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 2750
+  nightEnergy: 2750
+  capacity: 2750
+SC_SUPREME_LUMIUM_SOLAR_GENERATOR:
+  lateInit: true
+  item_group: rsc_alternative_generators
+  item:
+    name: '&9&l至尊地能太阳能发电机'
+    lore:
+    - '&7&l该发电机通过 &c&l平替转换机 &7&l转换而成'
+    - '&7&l只能在&b&l主世界&7&l发电'
+    - '&b上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 165,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 165,000 J/s (夜)'
+    material: BROWN_GLAZED_TERRACOTTA
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: SC_SUPREME_LUMIUM_GENERATOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SC_SUPREME_TRANSFORMATION_MACHINE_INFO
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 82500
+  nightEnergy: 82500
+  capacity: 82500
+SC_SUPREME_SOLAR_GENERATOR:
+  lateInit: true
+  item_group: rsc_alternative_generators
+  item:
+    name: '&9&l至尊太阳能发电机'
+    lore:
+    - '&7&l该发电机通过 &c&l平替转换机 &7&l转换而成'
+    - '&7&l只能在&b&l主世界&7&l发电'
+    - '&b上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 55,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 55,000 J/s (夜)'
+    material: ORANGE_GLAZED_TERRACOTTA
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: SC_SUPREME_GENERATOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SC_SUPREME_TRANSFORMATION_MACHINE_INFO
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 27500
+  nightEnergy: 27500
+  capacity: 27500
+SC_SUPREME_THORNIUM_SOLAR_GENERATOR:
+  lateInit: true
+  item_group: rsc_alternative_generators
+  item:
+    name: '&9&l基础万用太阳能发电机'
+    lore:
+    - '&7&l该发电机通过 &c&l平替转换机 &7&l转换而成'
+    - '&7&l只能在&b&l主世界&7&l发电'
+    - '&b上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 2,200,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 2,200,000 J/s (夜)'
+    material: BLACK_GLAZED_TERRACOTTA
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: SC_SUPREME_THORNIUM_GENERATOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SC_SUPREME_TRANSFORMATION_MACHINE_INFO
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 1100000
+  nightEnergy: 1100000
+  capacity: 1100000
+SC_SUPREME_SUPREME_SOLAR_GENERATOR:
+  lateInit: true
+  item_group: rsc_alternative_generators
+  item:
+    name: '&9&l至尊万用太阳能发电机'
+    lore:
+    - '&7&l该发电机通过 &c&l平替转换机 &7&l转换而成'
+    - '&7&l只能在&b&l主世界&7&l发电'
+    - '&b上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 4,400,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 4,400,000 J/s (夜)'
+    material: PURPLE_GLAZED_TERRACOTTA
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: SC_SUPREME_SUPREME_GENERATOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SC_SUPREME_TRANSFORMATION_MACHINE_INFO
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 2200000
+  nightEnergy: 2200000
+  capacity: 2200000
+JCHDFDJ:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&8&l基础混沌发电机'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 2,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 2,000 J/s (夜)'
+    material: BLACKSTONE_WALL
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ENERGY_REGULATOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 1000
+  nightEnergy: 1000
+  capacity: 1000
+GJHDFDJ:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&8&l高级混沌发电机'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 60,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 60,000 J/s (夜)'
+    material: POLISHED_BLACKSTONE_WALL
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: JCHDFDJ
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BEDROCK_DIAMOND
+      amount: 1
+    6:
+      material_type: slimefun
+      material: JCHDFDJ
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 30000
+  nightEnergy: 30000
+  capacity: 30000
+CJHDFDJ:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&8&l超级混沌发电机'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 500,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 500,000 J/s (夜)'
+    material: POLISHED_BLACKSTONE_BRICK_WALL
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: GJHDFDJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITE_PANEL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 250000
+  nightEnergy: 250000
+  capacity: 250000
+ZJHDFDJ:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&8&l终极混沌发电机'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 300,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 300,000,000 J/s (夜)'
+    material: BLACK_GLAZED_TERRACOTTA
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: GJHDFDJ
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CJHDFDJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: JCHDFDJ
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITE_PANEL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HDK
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 150000000
+  nightEnergy: 150000000
+  capacity: 150000000
+XSJCFDJ1:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&a新手基础发电机&7-&eI'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 20 J/s (昼)'
+    - '&8⇨ &e⚡&7 20 J/s (夜)'
+    material: CAMPFIRE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 10
+  nightEnergy: 10
+  capacity: 10
+XSJCFDJ2:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&a新手基础发电机&7-&eII'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 50 J/s (昼)'
+    - '&8⇨ &e⚡&7 50 J/s (夜)'
+    material: CAMPFIRE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: XSJCFDJ1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 25
+  nightEnergy: 25
+  capacity: 25
+XSJCFDJ3:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&a新手基础发电机&7-&eIII'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 80 J/s (昼)'
+    - '&8⇨ &e⚡&7 80 J/s (夜)'
+    material: CAMPFIRE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: XSJCFDJ2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 40
+  nightEnergy: 40
+  capacity: 40
+XSJCFDJ4:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&a新手基础发电机&7-&eIV'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 110 J/s (昼)'
+    - '&8⇨ &e⚡&7 110 J/s (夜)'
+    material: CAMPFIRE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: XSJCFDJ3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 55
+  nightEnergy: 55
+  capacity: 55
+XSJCFDJ5:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&a新手基础发电机&7-&eV'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 140 J/s (昼)'
+    - '&8⇨ &e⚡&7 140 J/s (夜)'
+    material: CAMPFIRE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: XSJCFDJ4
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 70
+  nightEnergy: 70
+  capacity: 70
+XSJCFDJ6:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&a新手基础发电机&7-&eVI'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 170 J/s (昼)'
+    - '&8⇨ &e⚡&7 170 J/s (夜)'
+    material: CAMPFIRE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: XSJCFDJ5
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 85
+  nightEnergy: 85
+  capacity: 85
+XSJCFDJ7:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&a新手基础发电机&7-&eVII'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 200 J/s (昼)'
+    - '&8⇨ &e⚡&7 200 J/s (夜)'
+    material: CAMPFIRE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: XSJCFDJ6
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 100
+  nightEnergy: 100
+  capacity: 100
+XSJCFDJ8:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&a新手基础发电机&7-&eVIII'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 230 J/s (昼)'
+    - '&8⇨ &e⚡&7 230 J/s (夜)'
+    material: CAMPFIRE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: XSJCFDJ7
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 115
+  nightEnergy: 115
+  capacity: 115
+XSJCFDJ9:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&a新手基础发电机&7-&eIX'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 260 J/s (昼)'
+    - '&8⇨ &e⚡&7 260 J/s (夜)'
+    material: CAMPFIRE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: XSJCFDJ8
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 130
+  nightEnergy: 130
+  capacity: 130
+XSJCFDJ10:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&a新手基础发电机&7-&eX'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 290 J/s (昼)'
+    - '&8⇨ &e⚡&7 290 J/s (夜)'
+    material: CAMPFIRE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: XSJCFDJ9
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 145
+  nightEnergy: 145
+  capacity: 145
+TLFDJ:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&8&l贪婪发电机'
+    lore:
+    - ''
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 640,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 640,000,000 J/s (夜)'
+    material: GRAY_GLAZED_TERRACOTTA
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ZJHDFDJ
+      amount: 1
+    2:
+      material_type: slimefun
+      material: TLJZ3
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 320000000
+  nightEnergy: 320000000
+  capacity: 320000000
+WIND_TURBINES:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b风力涡轮机'
+    lore:
+    - '&7由微弱的风力推动'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 600 J/s (昼)'
+    - '&8⇨ &e⚡&7 300 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: IRON_BLOCK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: IRON_BLOCK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: IRON_BLOCK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: IRON_BLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: IRON_BLOCK
+      amount: 1
+    6:
+      material_type: slimefun
+      material: IRON_BLOCK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGNETIC_COIL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGNETIC_COIL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGNETIC_COIL
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 300
+  nightEnergy: 150
+  capacity: 300
+SOLAR_PANELS:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b太阳能板'
+    lore:
+    - '&7吸收亚星以外的光照能量发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 720 J/s (昼)'
+    - '&8⇨ &e⚡&7 360 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIGH_PURITY_SILICON_BLOCK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HIGH_PURITY_SILICON_BLOCK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HIGH_PURITY_SILICON_BLOCK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HIGH_PURITY_SILICON_BLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: PCB
+      amount: 1
+    6:
+      material_type: slimefun
+      material: COPPER_BLOCK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: COPPER_BLOCK
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COPPER_BLOCK
+      amount: 1
+    9:
+      material_type: slimefun
+      material: COPPER_BLOCK
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 360
+  nightEnergy: 180
+  capacity: 360
+RADIATION_RECEIVING_STATION:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b射线接收站'
+    lore:
+    - '&7需要接收外部光线的发电机'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 12,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 6,000,000 J/s (夜)'
+    material: LIGHT_BLUE_CONCRETE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: STONE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: STONE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: STONE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: PCB
+      amount: 1
+    5:
+      material_type: slimefun
+      material: STEEL_PRODUCTS
+      amount: 1
+    6:
+      material_type: slimefun
+      material: PCB
+      amount: 1
+    7:
+      material_type: slimefun
+      material: GLASS_PLATE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: GLASS_PLATE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: GLASS_PLATE
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 6000000
+  nightEnergy: 3000000
+  capacity: 6000000
+ARTIFICIAL_STAR:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b人造恒星'
+    lore:
+    - '&7首个自给自足的发电机'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 1,440,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 720,000,000 J/s (夜)'
+    material: YELLOW_GLAZED_TERRACOTTA
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIGH_TITANIUM_ALLOY
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FRAME_MATAERIAL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANNIHILATION_CONSTRAINED_SPHERE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: QUANTUM_CHIP
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 720000000
+  nightEnergy: 360000000
+  capacity: 720000000
+ANNIHILATION_OF_NIHILITY_SOLAR_PANEL:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b湮灭虚无太阳能板'
+    lore:
+    - '&7充能太阳能板的跨级强化'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 2,048 J/s (昼)'
+    - '&8⇨ &e⚡&7 1,024 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SOLAR_GENERATOR_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOOSTED_URANIUM
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SOLAR_GENERATOR_4
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOOSTED_URANIUM
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOOSTED_URANIUM
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SOLAR_GENERATOR_4
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOOSTED_URANIUM
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SOLAR_GENERATOR_4
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 1024
+  nightEnergy: 512
+  capacity: 1024
+ANNIHILATION_SPOTLIGHT_COLLECTING_PLATE_A:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b湮灭能量收集板A'
+    lore:
+    - '&7由虚空太阳能板升级而成'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 16,384 J/s (昼)'
+    - '&8⇨ &e⚡&7 8,192 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ANNIHILATION_OF_NIHILITY_SOLAR_PANEL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 8192
+  nightEnergy: 4096
+  capacity: 8192
+ANNIHILATION_SPOTLIGHT_COLLECTING_PLATE_S:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b湮灭聚光收集板A'
+    lore:
+    - '&7由湮灭能量收集板A集成'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 32,768 J/s (昼)'
+    - '&8⇨ &e⚡&7 16,384 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ANNIHILATION_SPOTLIGHT_COLLECTING_PLATE_A
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 16384
+  nightEnergy: 8192
+  capacity: 16384
+ANNIHILATION_SPOTLIGHT_COLLECTING_PLATE_SS:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b湮灭聚光收集板SS'
+    lore:
+    - '&7由湮灭能量收集板S集成'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 32,768 J/s (昼)'
+    - '&8⇨ &e⚡&7 16,384 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ANNIHILATION_SPOTLIGHT_COLLECTING_PLATE_S
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 16384
+  nightEnergy: 8192
+  capacity: 16384
+ANNIHILATION_SPOTLIGHT_COLLECTING_PLATE_SSS:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b湮灭聚光收集板SSS'
+    lore:
+    - '&7由湮灭能量收集板SS集成'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 49,152 J/s (昼)'
+    - '&8⇨ &e⚡&7 24,576 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ANNIHILATION_SPOTLIGHT_COLLECTING_PLATE_SS
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ANNIHILATION_CORE_SHELL
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 24576
+  nightEnergy: 12288
+  capacity: 24576
+FLFD_I:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&e风力发电机'
+    lore:
+    - ''
+    - '&7利用太阳能发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 16 J/s (昼)'
+    - '&8⇨ &e⚡&7 16 J/s (夜)'
+    material: WHITE_BANNER
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FCYEPIAN
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FCYEPIAN
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ZHOUCHENG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MOTOR_II
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ZHOUCHENG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FCYEPIAN
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FCYEPIAN
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 8
+  nightEnergy: 8
+  capacity: 8
+FLFD_II:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b升级风力发电机'
+    lore:
+    - ''
+    - '&7利用太阳能发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 64 J/s (昼)'
+    - '&8⇨ &e⚡&7 16 J/s (夜)'
+    material: GREEN_BANNER
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FLFD_I
+      amount: 1
+    2:
+      material_type: slimefun
+      material: DAMASCUS_STEEL_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FLFD_I
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BILLON_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MOTOR_II
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BILLON_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FLFD_I
+      amount: 1
+    8:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FLFD_I
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 32
+  nightEnergy: 8
+  capacity: 32
+FLFD_III:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&c高级风力发电机'
+    lore:
+    - ''
+    - '&7利用太阳能发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 256 J/s (昼)'
+    - '&8⇨ &e⚡&7 32 J/s (夜)'
+    material: MAGENTA_BANNER
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FLFD_II
+      amount: 1
+    2:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FLFD_II
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ZHOUCHENG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MOTOR_II
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ZHOUCHENG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FLFD_II
+      amount: 1
+    8:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FLFD_II
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 128
+  nightEnergy: 16
+  capacity: 128
+FLFD_IV:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&c混合风力发电机'
+    lore:
+    - ''
+    - '&7利用太阳能发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 1,090 J/s (昼)'
+    - '&8⇨ &e⚡&7 512 J/s (夜)'
+    material: LIGHT_BLUE_BANNER
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FLFD_III
+      amount: 1
+    2:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FLFD_III
+      amount: 1
+    4:
+      material_type: slimefun
+      material: TITANIUM
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MOTOR_II
+      amount: 1
+    6:
+      material_type: slimefun
+      material: TITANIUM
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SOLAR_GENERATOR_4
+      amount: 1
+    8:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SOLAR_GENERATOR_4
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 545
+  nightEnergy: 256
+  capacity: 545
+FLFD_V:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&e超级风力发电机'
+    lore:
+    - ''
+    - '&7利用太阳能发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 4,872 J/s (昼)'
+    - '&8⇨ &e⚡&7 2,180 J/s (夜)'
+    material: YELLOW_BANNER
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FLFD_IV
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MYTHRIL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FLFD_IV
+      amount: 1
+    4:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MOTOR_II
+      amount: 1
+    6:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: LITTLE_REACTOR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ADAMANTITE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: LITTLE_REACTOR
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 2436
+  nightEnergy: 1090
+  capacity: 2436
+LZTYN:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&5&l量子太阳能'
+    lore:
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 102,400 J/s (昼)'
+    - '&8⇨ &e⚡&7 51,200 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: LYD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: DLKJ
+      amount: 1
+    3:
+      material_type: slimefun
+      material: LYD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: LYD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: DLKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: LYD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: LYD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: DLKJ
+      amount: 1
+    9:
+      material_type: slimefun
+      material: LYD
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 51200
+  nightEnergy: 25600
+  capacity: 51200
+FZTYN:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b腐竹专用发电机（Max）'
+    lore:
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 4,294,967,294 J/s (昼)'
+    - '&8⇨ &e⚡&7 4,294,967,294 J/s (夜)'
+    material_type: skull_hash
+    material: 647afb70af5f7471a31cc7c145a00876ab9334f6a753d9b4ba4731bc6c1fe6b
+  recipe_type: 'NULL'
+  recipe:
+    5:
+      material_type: slimefun
+      material: UNCRAFTABLE
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 2147483647
+  nightEnergy: 2147483647
+  capacity: 2147483647
+BOCCHI_TYNYJ:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b波奇太阳能I'
+    lore:
+    - '&7波奇用爱发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 2,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 1,000 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BASIC_PANEL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BASIC_PANEL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BASIC_PANEL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BASIC_PANEL
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQDA
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BASIC_PANEL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BASIC_PANEL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BASIC_PANEL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BASIC_PANEL
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 1000
+  nightEnergy: 500
+  capacity: 1000
+BOCCHI_TYNEJ:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b波奇太阳能II'
+    lore:
+    - '&7波奇用爱发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 8,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 4,000 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_TYNYJ
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_TYNYJ
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_TYNYJ
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_TYNYJ
+      amount: 1
+    5:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_TYNYJ
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_TYNYJ
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_TYNYJ
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_TYNYJ
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 4000
+  nightEnergy: 2000
+  capacity: 4000
+BOCCHI_TYNSJIII:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b波奇太阳能III'
+    lore:
+    - '&7波奇用爱发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 200,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 80,000 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_TYNEJ
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_TYNEJ
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_TYNEJ
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_TYNEJ
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXI
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_TYNEJ
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_TYNEJ
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_TYNEJ
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_TYNEJ
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 100000
+  nightEnergy: 40000
+  capacity: 100000
+BOCCHI_TYNSJIIII:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b波奇太阳能VI'
+    lore:
+    - '&7波奇用爱发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 2,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 1,000,000 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXI
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXI
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXI
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXI
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIII
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 1000000
+  nightEnergy: 500000
+  capacity: 1000000
+BOCCHI_TYNSJIIIII:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b波奇太阳能V'
+    lore:
+    - '&7波奇用爱发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 8,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 20,000,000 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIII
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 4000000
+  nightEnergy: 10000000
+  capacity: 10000000
+BOCCHI_TYNSJIIIIII:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b波奇太阳能VI'
+    lore:
+    - '&7波奇用爱发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 200,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 60,000,000 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXIII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIII
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 100000000
+  nightEnergy: 30000000
+  capacity: 100000000
+BOCCHI_TYNSJIIIIIII:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b波奇太阳能VII'
+    lore:
+    - '&7波奇用爱发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 1,000,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 120,000,000 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXIIII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIII
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 500000000
+  nightEnergy: 60000000
+  capacity: 500000000
+BOCCHI_TYNSJIIIIIIII:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b波奇太阳能VIII'
+    lore:
+    - '&7波奇用爱发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 1,800,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 160,000,000 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXIIIII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIII
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 900000000
+  nightEnergy: 80000000
+  capacity: 900000000
+BOCCHI_TYNSJIIIIIIIII:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&b波奇太阳能XI'
+    lore:
+    - '&7波奇用爱发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 3,000,000,000 J/s (昼)'
+    - '&8⇨ &e⚡&7 240,000,000 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXIIIIII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 1500000000
+  nightEnergy: 120000000
+  capacity: 1500000000
+YGFDXRK:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&e&l阳光发电小向日葵'
+    lore:
+    - '&7一朵能够吸收阳光来发电的小向日葵'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 24 J/s (昼)'
+    - '&8⇨ &e⚡&7 4 J/s (夜)'
+    material: DANDELION
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_LUMP_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ANCIENT_RUNE_FIRE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_LUMP_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANCIENT_RUNE_EARTH
+      amount: 1
+    5:
+      material_type: mc
+      material: SUNFLOWER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANCIENT_RUNE_EARTH
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_LUMP_1
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ANCIENT_RUNE_FIRE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_LUMP_1
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 12
+  nightEnergy: 2
+  capacity: 12
+HSFDJ:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&c火山发电机'
+    lore:
+    - '&b吸收阳光发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 36 J/s (昼)'
+    - '&8⇨ &e⚡&7 8 J/s (夜)'
+    material_type: skull_hash
+    material: c102bf7741c3e5c7f3ac460871943b37ac7da975b3b4b3bd02c2a37f0aacfb68
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: NETHERRACK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ALUMINUM_BRASS_INGOT
+      amount: 1
+    3:
+      material_type: mc
+      material: NETHERRACK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    7:
+      material_type: mc
+      material: NETHERRACK
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: mc
+      material: NETHERRACK
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 18
+  nightEnergy: 4
+  capacity: 18
+XXFDJ:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&e星星发电机'
+    lore:
+    - '&b吸收夜光发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 8 J/s (昼)'
+    - '&8⇨ &e⚡&7 36 J/s (夜)'
+    material_type: skull_hash
+    material: dbf93fbc29c9ed6d669750f4672bc2fab39e7cf043e47366a014c8aaf26dbdf8
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: END_STONE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ALUMINUM_BRASS_INGOT
+      amount: 1
+    3:
+      material_type: mc
+      material: END_STONE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    7:
+      material_type: mc
+      material: END_STONE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: mc
+      material: END_STONE
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 4
+  nightEnergy: 18
+  capacity: 18
+HXFDJ:
+  lateInit: true
+  item_group: rsc_solar_generators
+  item:
+    name: '&a火星发电机'
+    lore:
+    - '&b日夜均可发电'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 128 J/s (昼)'
+    - '&8⇨ &e⚡&7 128 J/s (夜)'
+    material_type: skull_hash
+    material: 5dbfb4b5efc2da90069d58a685d1a8e9eac777f23704dc34e920b56117c8f2e1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: KLMSYHJD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: CARBONADO
+      amount: 1
+    3:
+      material_type: slimefun
+      material: KLMSYHJD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HSFDJ
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: XXFDJ
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 64
+  nightEnergy: 64
+  capacity: 64

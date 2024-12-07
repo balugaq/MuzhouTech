@@ -1,0 +1,46 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§a§l创世靴子"}'
+    enchants:
+      PROTECTION_EXPLOSIONS: 255
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 255
+      PROTECTION_FIRE: 255
+      PROTECTION_PROJECTILE: 255
+      PROTECTION_ENVIRONMENTAL: 255
+      SOUL_SPEED: 3
+    attribute-modifiers:
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+        slot: FEET
+        uuid: 5ebe9e68-da61-4025-b9d9-4fba85ee4f74
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+        slot: FEET
+        uuid: f9cd5179-9236-4be1-889d-e5aa93ac478e
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+        slot: FEET
+        uuid: 3ef1c485-5e79-4657-8a85-d4e47da2d96f
+        operation: 0
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.1
+        name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+        slot: FEET
+        uuid: 620f679a-66b2-4cc8-9556-c4e0793e000c
+        operation: 0
+    Unbreakable: true

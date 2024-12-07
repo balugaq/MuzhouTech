@@ -1,0 +1,55 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"伏特加"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"来瓶小鸟伏特加~"}],"text":""}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    potion-type: minecraft:water
+    custom-effects:
+    - ==: PotionEffect
+      effect: 9
+      duration: 600
+      amplifier: 0
+      ambient: false
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 22
+      duration: 1200
+      amplifier: 2
+      ambient: false
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 5
+      duration: 1200
+      amplifier: 0
+      ambient: false
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 11
+      duration: 1200
+      amplifier: 0
+      ambient: false
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 28
+      duration: 1200
+      amplifier: 0
+      ambient: false
+      has-particles: true
+      has-icon: true

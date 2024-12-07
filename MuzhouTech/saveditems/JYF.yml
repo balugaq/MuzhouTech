@@ -1,0 +1,22 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§8§l基岩斧"}'
+    enchants:
+      DIG_SPEED: 255
+      LOOT_BONUS_BLOCKS: 255
+      LOOT_BONUS_MOBS: 255
+      SILK_TOUCH: 1
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 500.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+        slot: HAND
+        uuid: 50c089c6-4e2b-49b0-b4cb-ecc80f118245
+        operation: 0
+    Unbreakable: true

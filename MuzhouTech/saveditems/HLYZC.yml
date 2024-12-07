@@ -1,0 +1,28 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DIAMOND_SHOVEL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"火"},{"bold":true,"italic":false,"color":"dark_aqua","text":"莱"},{"bold":true,"italic":false,"color":"blue","text":"伊"},{"bold":true,"italic":false,"color":"dark_blue","text":"之"},{"bold":true,"italic":false,"color":"dark_purple","text":"铲"}],"text":""}'
+    enchants:
+      DIG_SPEED: 30
+      LOOT_BONUS_BLOCKS: 20
+      SILK_TOUCH: 1
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 10.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+        slot: HAND
+        uuid: 41cf55f4-ea82-4b8f-85e0-460980453600
+        operation: 0
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 1.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+        slot: HAND
+        uuid: f09bbea3-bbc6-4f87-97e5-e170012e54a1
+        operation: 0
+    Unbreakable: true

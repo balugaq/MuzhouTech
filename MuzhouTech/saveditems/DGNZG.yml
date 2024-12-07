@@ -1,0 +1,28 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FISHING_ROD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§a多功能抓钩"}'
+    lore:
+    - '{"text":"§c100%掉抓钩，概率性掉箭和栓绳"}'
+    - '{"text":"§b无法破坏；击退；钓鱼神器；当弓使"}'
+    - '{"text":"§e右键使用多功能抓钩"}'
+    custom-model-data: 2200131
+    enchants:
+      KNOCKBACK: 10
+      LUCK: 5
+      LURE: 5
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    Unbreakable: true
+    PublicBukkitValues:
+      slimefun:slimefun_item: GRAPPLING_HOOK

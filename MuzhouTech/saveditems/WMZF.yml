@@ -1,0 +1,38 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"light_purple","text":"6"},{"bold":true,"italic":false,"obfuscated":false,"color":"dark_purple","text":"完美之斧"},{"bold":true,"italic":false,"obfuscated":true,"color":"light_purple","text":"6"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"属性显示不完全
+      III"}],"text":""}'
+    enchants:
+      DIG_SPEED: 255
+      FIRE_ASPECT: 255
+      LOOT_BONUS_MOBS: 255
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+        slot: HAND
+        uuid: 2535294c-8827-46de-aec4-b09df3668277
+        operation: 0
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+        slot: HAND
+        uuid: 22ed0880-74d3-4c96-b3ad-e57a0a4db25f
+        operation: 0
+      GENERIC_ATTACK_KNOCKBACK:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 50.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_knockback]
+        slot: HAND
+        uuid: efcea6cb-3411-4f3c-bcb4-4ef63ba447b3
+        operation: 0
+    Unbreakable: true

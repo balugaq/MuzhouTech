@@ -1,0 +1,14 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3105
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '[{"text":"某位大师的遗落之作","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]'
+    lore:
+      - '{"text":"来自远古星辰之地","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}'
+      - '{"text":"传说曾收到星辉之力加护不过因时间流逝，其能力也逐渐消失......","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}'
+    enchants:
+      LOOT_BONUS_MOBS: 20
+    Damage: 31

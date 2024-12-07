@@ -1,0 +1,39 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DIAMOND_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"火"},{"bold":true,"italic":false,"color":"dark_aqua","text":"莱"},{"bold":true,"italic":false,"color":"blue","text":"伊"},{"bold":true,"italic":false,"color":"dark_blue","text":"靴"},{"bold":true,"italic":false,"color":"dark_purple","text":"子"}],"text":""}'
+    enchants:
+      PROTECTION_EXPLOSIONS: 50
+      DEPTH_STRIDER: 50
+      PROTECTION_FALL: 50
+      PROTECTION_FIRE: 50
+      PROTECTION_PROJECTILE: 50
+      PROTECTION_ENVIRONMENTAL: 50
+      SOUL_SPEED: 5
+    attribute-modifiers:
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 20.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+        slot: FEET
+        uuid: 182a53c5-c38a-4b07-b724-8718dffd5208
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 20.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+        slot: FEET
+        uuid: f2af4247-4137-4dda-b188-e3f49a0277f3
+        operation: 0
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.1
+        name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+        slot: FEET
+        uuid: a93e1375-af66-4e79-b3e3-6c6912598a73
+        operation: 0
+    Unbreakable: true

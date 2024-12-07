@@ -1,0 +1,14 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: BOW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§a§l创世之弓"}'
+    enchants:
+      ARROW_FIRE: 255
+      ARROW_INFINITE: 1
+      ARROW_DAMAGE: 255
+      ARROW_KNOCKBACK: 10
+    Unbreakable: true

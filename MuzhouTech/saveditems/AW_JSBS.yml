@@ -1,0 +1,29 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DIAMOND
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"⚡"},{"bold":true,"italic":false,"color":"aqua","text":"加速宝石"},{"bold":true,"italic":false,"color":"yellow","text":"⚡"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"手持可以提升速度"}],"text":""}'
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 1
+    attribute-modifiers:
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.3
+        name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+        slot: HAND
+        uuid: 7994de4f-6da4-4b99-a0f7-264ccd9d7472
+        operation: 0
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.3
+        name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+        slot: OFF_HAND
+        uuid: 5b6e6bf5-29df-45a4-b90d-f9a45191f547
+        operation: 0
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES

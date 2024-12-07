@@ -1,0 +1,324 @@
+rsc_muzhou_tech:
+  lateInit: false
+  type: nested
+  item:
+    material_type: skull_hash
+    material: 65a1f187318388ed5d001383ea4343b7871b83284382193cc680274105e1b7
+    name: '{#0099ff}暮舟{#3399ff}科技'
+  tier: -1
+rsc_board:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 1421f1514da756c8c6c7c0b83a79265c26c9ece66b3bad8fbd94bd96d7040d7e
+    name: '{#0099ff}暮舟{#3399ff}科技 &7· {#ff3333}必读公告'
+  parent: rsc_muzhou_tech
+  tier: 1
+rsc_zhanwei1:
+  lateInit: false
+  type: sub
+  item:
+    material: WHITE_STAINED_GLASS_PANE
+    name: ' '
+  parent: rsc_muzhou_tech
+  tier: 2
+rsc_balls:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 921b2af8d2322282fce4a1aa4f257a52b68e27eb334f4a181fd976bae6d8eb
+    name: '&6&l海曼科技院 &7- &f&l波兰球'
+  parent: rsc_muzhou_tech
+  tier: 3
+rsc_rv_pre1:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: aaa99bcdde85a21d9e3ceb08dc7b6ad5b10cd06c17b7b94257ddbd490564be2a
+    name: '&6&l海曼科技院 &7- &d&l1.RV-Pre1拓展'
+  parent: rsc_muzhou_tech
+  tier: 4
+rsc_milestones:
+  lateInit: false
+  type: sub
+  item:
+    material: BEDROCK
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#E59B70}里{#BE954E}程{#8F9039}碑'
+  parent: rsc_muzhou_tech
+  tier: 5
+rsc_skins:
+  lateInit: false
+  type: sub
+  item:
+    material: ORANGE_GLAZED_TERRACOTTA
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#ee775d}&l皮{#f78a59}&l肤{#ff9c55}&l集'
+  parent: rsc_muzhou_tech
+  tier: 6
+rsc_zhanwei6:
+  lateInit: false
+  type: sub
+  item:
+    material: PINK_STAINED_GLASS_PANE
+    name: ' '
+  parent: rsc_muzhou_tech
+  tier: 7
+rsc_zhanwei7:
+  lateInit: false
+  type: sub
+  item:
+    material: MAGENTA_STAINED_GLASS_PANE
+    name: ' '
+  parent: rsc_muzhou_tech
+  tier: 8
+rsc_save_names:
+  lateInit: false
+  type: sub
+  item:
+    material: ORANGE_CANDLE
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}留名集'
+  parent: rsc_muzhou_tech
+  tier: 9
+rsc_zhanwei9:
+  lateInit: false
+  type: sub
+  item:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+  parent: rsc_muzhou_tech
+  tier: 10
+rsc_capas:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}电容集'
+  parent: rsc_muzhou_tech
+  tier: 11
+rsc_infos:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: fa2afa7bb063ac1ff3bbe08d2c558a7df2e2bacdf15dac2a64662dc40f8fdbad
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}信息集'
+  parent: rsc_muzhou_tech
+  tier: 12
+rsc_decorations:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 77d8ca152aab772d6019ffe8b029d6b4ffa5c61cbc53a52ec20d65120ac8345f
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}装饰集'
+  parent: rsc_muzhou_tech
+  tier: 13
+rsc_machines:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: a8c64d784a6d82af82879b9b864da6c6822dc919df65c387ab439905908b5c44
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}机器集'
+  parent: rsc_muzhou_tech
+  tier: 14
+rsc_aio_machines:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: da88ab0af11230d3a4683e033354c428115d52a9588c93f3263512e440214600
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}一体机集'
+  parent: rsc_muzhou_tech
+  tier: 15
+rsc_materials:
+  lateInit: false
+  type: sub
+  item:
+    material: WHEAT
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}材料集'
+  parent: rsc_muzhou_tech
+  tier: 16
+rsc_zhanwei10:
+  lateInit: false
+  type: sub
+  item:
+    material: CYAN_STAINED_GLASS_PANE
+    name: ' '
+  parent: rsc_muzhou_tech
+  tier: 17
+rsc_elements:
+  lateInit: false
+  type: sub
+  item:
+    material: SCULK_SENSOR
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#981cd8}元{#9319da}素{#8e16dc}周{#8913de}期{#8410e0}表'
+  parent: rsc_muzhou_tech
+  tier: 18
+rsc_tips:
+  lateInit: false
+  type: sub
+  item:
+    material: NAME_TAG
+    name: '&6可以通过搜索功能寻找物品哦'
+  parent: rsc_muzhou_tech
+  tier: 19
+rsc_geo_resources:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: cfbb95502e0fd0dba60bbe5818e2fd5278eda2999cc2d78109c2ca577557a0a6
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}GEO 资源集'
+  parent: rsc_muzhou_tech
+  tier: 20
+rsc_compressed_machines:
+  lateInit: false
+  type: sub
+  item:
+    material: NETHERITE_INGOT
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#375D73}压{#4C6687}缩{#696E97}机{#8975A1}器'
+  parent: rsc_muzhou_tech
+  tier: 21
+rsc_potions:
+  lateInit: false
+  type: sub
+  item:
+    material: DRAGON_BREATH
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}药水集'
+  parent: rsc_muzhou_tech
+  tier: 22
+rsc_generators:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: f9dc48ba5326a4078d731cb00441e62ba9402400c0d175b9ac734d2d52cf2329
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}发电机集'
+  parent: rsc_muzhou_tech
+  tier: 23
+rsc_alternative_generators:
+  lateInit: false
+  type: sub
+  item:
+    material: CRIMSON_FENCE
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}平替集'
+  parent: rsc_muzhou_tech
+  tier: 24
+rsc_solar_generators:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: c386797d048e9953c3807ca7d856f7a95857f06f602f67259c7bd2dcb79d27b4
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}太阳能发电机'
+  parent: rsc_muzhou_tech
+  tier: 25
+rsc_zhanwei11:
+  lateInit: false
+  type: sub
+  item:
+    material: CYAN_STAINED_GLASS_PANE
+    name: ' '
+  parent: rsc_muzhou_tech
+  tier: 26
+rsc_material_generators:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: bdc7913229cb2e898071b0c2bc8f13bd8dba69dbdccaf4d1da643ab726b925af
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}材料生成器'
+  parent: rsc_muzhou_tech
+  tier: 27
+rsc_zhanwei12:
+  lateInit: false
+  type: sub
+  item:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+  parent: rsc_muzhou_tech
+  tier: 28
+rsc_mob_drops:
+  lateInit: false
+  type: sub
+  item:
+    material: COOKED_MUTTON
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}生物资源集'
+  parent: rsc_muzhou_tech
+  tier: 29
+rsc_armors:
+  lateInit: false
+  type: sub
+  item:
+    material: DIAMOND_CHESTPLATE
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}装备集'
+  parent: rsc_muzhou_tech
+  tier: 30
+rsc_weapons:
+  lateInit: false
+  type: sub
+  item:
+    material: TRIDENT
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}武器与工具'
+  parent: rsc_muzhou_tech
+  tier: 31
+rsc_recipes:
+  lateInit: false
+  type: sub
+  item:
+    material: KNOWLEDGE_BOOK
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}新配方集'
+  parent: rsc_muzhou_tech
+  tier: 32
+rsc_storages:
+  lateInit: false
+  type: sub
+  item:
+    material: OAK_WOOD
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}存储集'
+  parent: rsc_muzhou_tech
+  tier: 33
+rsc_others:
+  lateInit: false
+  type: sub
+  item:
+    material: FLINT
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}其它物品集'
+  parent: rsc_muzhou_tech
+  tier: 34
+rsc_zhanwei13:
+  lateInit: false
+  type: sub
+  item:
+    material: BLUE_STAINED_GLASS_PANE
+    name: ' '
+  parent: rsc_muzhou_tech
+  tier: 35
+rsc_final_chapter:
+  lateInit: false
+  type: sub
+  item:
+    material: END_CRYSTAL
+    name: '{#0099ff}暮舟{#3399ff}科技&6 · {#6699ff}终章'
+  parent: rsc_muzhou_tech
+  tier: 36
+rsc_juzibirthday:
+  lateInit: false
+  type: seasonal
+  item:
+    material_type: skull_hash
+    material: 8ccc284e4fc78fbe8fa4d140e9d8a5a2f57b902cd020faa10996b117f7d4ce1e
+    name: '&6橘子的生日'
+  month: 8
+rsc_herbirthday:
+  lateInit: false
+  type: seasonal
+  item:
+    material_type: skull_hash
+    material: 5da558f13533ff29a185408aef49c5a0a9764873cdd7976b4d4f5c44aaace
+    name: '&6她的生日'
+  month: 7

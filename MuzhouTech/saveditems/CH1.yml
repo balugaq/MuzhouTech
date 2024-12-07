@@ -1,0 +1,44 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LEATHER_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_blue","text":"彩"},{"italic":false,"color":"dark_green","text":"虹"},{"italic":false,"color":"yellow","text":"头"},{"italic":false,"color":"red","text":"盔"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_blue","text":"海的眷顾！"}],"text":""}'
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_ENVIRONMENTAL: 10
+      OXYGEN: 5
+      DURABILITY: 32
+    attribute-modifiers:
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 5.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+        slot: HEAD
+        uuid: a6eb4bce-157f-46e8-96c4-94d4ff48e7b1
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 5.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+        slot: HEAD
+        uuid: 84219977-95ae-4507-a6d2-b300583ab9ab
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.1
+        name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+        slot: HEAD
+        uuid: 7a1ff9b7-f493-4de7-91e2-a63aff4ed787
+        operation: 0
+    ItemFlags:
+    - HIDE_DYE
+    color:
+      ==: Color
+      RED: 91
+      BLUE: 154
+      GREEN: 110

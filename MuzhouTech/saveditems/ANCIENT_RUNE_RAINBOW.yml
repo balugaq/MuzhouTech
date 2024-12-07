@@ -1,0 +1,25 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"古代符文
+      "},{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"light_purple","text":"虹"},{"bold":true,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+    custom-model-data: 2200416
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    PublicBukkitValues:
+      slimefun:slimefun_item: ANCIENT_RUNE_RAINBOW
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 0
+      fade-colors: []
+      type: BURST

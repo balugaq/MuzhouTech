@@ -1,0 +1,83 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"宇"},{"bold":true,"italic":false,"color":"green","text":"宙"},{"bold":true,"italic":false,"color":"aqua","text":"虚"},{"bold":true,"italic":false,"color":"light_purple","text":"无"},{"bold":true,"italic":false,"color":"dark_purple","text":"之"},{"bold":true,"italic":false,"color":"gold","text":"剑"}],"text":""}'
+    lore:
+    - '{"text":"§b灵魂绑定"}'
+    - '{"text":"§e§l寰宇支配之剑的完全体"}'
+    custom-model-data: 2500112
+    enchants:
+      FIRE_ASPECT: 255
+      LOOT_BONUS_MOBS: 100
+      SWEEPING_EDGE: 3
+    attribute-modifiers:
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+        slot: HAND
+        uuid: 5ca6afd4-de26-44fa-adb3-9c7a14993f71
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+        slot: HAND
+        uuid: 1bc12881-dc8b-40ee-a3b2-5572e29b59f5
+        operation: 0
+      GENERIC_LUCK:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.luck]
+        slot: HAND
+        uuid: 2bdaead2-2736-44fd-89be-826e3ffe8b72
+        operation: 0
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+        slot: HAND
+        uuid: 261b3217-cb26-48aa-9c5c-a826133a831d
+        operation: 0
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+        slot: HAND
+        uuid: 6b947637-7d60-4678-8f6a-ec0a584214d1
+        operation: 0
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+        slot: HAND
+        uuid: eaafea2a-db5a-4871-aa28-f6bd735da98c
+        operation: 0
+      GENERIC_ATTACK_KNOCKBACK:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 10.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_knockback]
+        slot: HAND
+        uuid: 1e1a4a80-1557-44a2-8669-a6964db33ff0
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: .inf
+        name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+        slot: HAND
+        uuid: 560bfbd9-0b83-499c-a058-921e0d9dfcc3
+        operation: 0
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.1
+        name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+        slot: HAND
+        uuid: de06796b-6ee1-4af5-a77d-5a939f374b6f
+        operation: 0
+    Unbreakable: true
+    PublicBukkitValues:
+      slimefun:slimefun_item: INFINITY_BLADE

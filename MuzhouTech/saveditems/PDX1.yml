@@ -1,0 +1,15 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"text":"§e派大星头套"}'
+    Unbreakable: true
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: fed173b2-dd34-4bd0-a2bb-13198acd3a3d
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdmYzMzYmQ3YTIzNmZmZGM4OWNmNGE3NWMyOGY5ZGY3NjIzMTNlNjE1YmEwOTFhMGRmYTU5MmNkOGU2MCJ9fX0=

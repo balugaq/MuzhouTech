@@ -1,0 +1,15 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: COAL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#21588F","text":"魔法水晶"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"毕业石像"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"你已经毕业了"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#21588F","text":"魔法水晶"},{"bold":true,"italic":false,"color":"gold","text":"附属"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"去游玩其他附属吧！"}],"text":""}'
+    - '{"text":""}'
+    custom-model-data: 10064
+    internal: H4sIAAAAAAAA/w3JQQ6AIAwEwI0Xsf7GD5GGbkwPRUL5f3CuI4BAfDFSzTgLDjecub7O+hRcXYM5tBF36Out/jUJbPpx1G05AAAA

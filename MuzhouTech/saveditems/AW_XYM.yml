@@ -1,0 +1,28 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LEATHER_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"幸运帽"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"没有绑定诅咒，就颜色绿而已"}],"text":""}'
+    enchants:
+      DURABILITY: 10
+    attribute-modifiers:
+      GENERIC_LUCK:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 24.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.luck]
+        slot: HEAD
+        uuid: ec6dd4e1-6743-49b3-99e1-1b243415d13b
+        operation: 0
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_DYE
+    color:
+      ==: Color
+      RED: 128
+      BLUE: 31
+      GREEN: 199

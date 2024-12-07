@@ -1,0 +1,50 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDA8","text":"寰宇之刃
+      中级"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"伤害
+      III"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"生命偷取
+      II"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"过量治疗"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"神圣重击
+      II"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E0F2","text":"神秘的力量"}],"text":""}'
+    enchants:
+      DAMAGE_ARTHROPODS: 40
+      FIRE_ASPECT: 40
+      LOOT_BONUS_MOBS: 40
+      DAMAGE_ALL: 40
+      DAMAGE_UNDEAD: 40
+      SWEEPING_EDGE: 40
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 40.0
+        name: GENERIC_ATTACK_DAMAGE
+        slot: HAND
+        uuid: f3dfcc8c-902f-4e14-b287-060fa197652e
+        operation: 0
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 4.0
+        name: GENERIC_ATTACK_SPEED
+        slot: HAND
+        uuid: dc004afe-8025-44c3-853b-2bcc8cfcdf3c
+        operation: 0
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.4
+        name: GENERIC_MAX_HEALTH
+        slot: HAND
+        uuid: 1f407cd1-1a0f-42c4-a2e9-21fd9775b36d
+        operation: 1
+    Unbreakable: true
+    PublicBukkitValues:
+      slimefun:slimefun_item: ELUCIDATOR

@@ -1,0 +1,25 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§4§l镰之刃"}'
+    lore:
+    - '{"text":"§7收割 II"}'
+    - '{"text":"§e§l一把锋利的镰刀"}'
+    enchants:
+      FIRE_ASPECT: 1
+      LOOT_BONUS_MOBS: 5
+      DURABILITY: 3
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 17.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+        slot: HAND
+        uuid: 14d78e9c-a43f-4b67-b930-aa2b5466ecd6
+        operation: 0
+    ItemFlags:
+    - HIDE_ENCHANTS

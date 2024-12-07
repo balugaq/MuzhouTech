@@ -1,0 +1,25 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NETHERITE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"chengmoyin"}],"text":""}'
+    lore:
+    - '{"italic":false,"extra":[{"color":"gold","text":"\"多加点时尚小垃圾啊——辰墨胤\""}],"text":""}'
+    custom-model-data: 2201355
+    enchants:
+      FIRE_ASPECT: 255
+    attribute-modifiers:
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.0
+        name: mmoitemsDecoy
+        uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+        operation: 0
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    Unbreakable: true
+    internal: H4sIAAAAAAAA/81X3W/bVBT3QETVEAg2BmxIkEXCL/CQJmnT9KmufdNYS+wQu3RVV6IsbbeJMFAb0NA0qd1XtrasTLRrt67Qio1sA7qvanRr0k3dOw/8A0hZ7DQPFX/COL524s/A62r7yj7nd3/n3HNu7znZThAu4u1YjGdFFBOSlChS9L4kQ8WoLkT9/fz58ycEsY14rw5gWIHqjKIk4ugIxYks17XNReysq1kaaZM7np4jlL+XiT11Ld0tiHwsGeMZFAWYSBF7Z191GQBRtisickgAOyiMOAF1THVgliZie0QQE71Jjooh4s/jHiGbynraPcqn52MP3yVkvxz+1tPed9xTJ1N0yad3R7LDACSPkYj0kS3wUHBlSgujIAqRARAFSJr0k5nKyq8g8oO2lQyTDNkJouIsiLxwtcHDwJWRztypizphYojMPBtb1kQheChQZOR75+siHwiagWthCURhuFpB2KagwAnPif4TxgDGP43XAvgZXjlEf48t+gkUp9iEGvxdupZnukBHKVnp6FVnu4i3zMkxx9VF7NanU4l9TrE37o8eRMV5ruahE4ASUcKevdfqAJFFCcLVzbGfdKMmo/O9kC+WTkb5BHLN9nk28kMb+bR8f0a6fAMyDJ/quJH3uzfywdKPq255ek3KrZUL16Tl++0gHPI1B4KBNn9rIGjGXlp0y1dWAFu5kMPAj5q93g8bYFQ++fZ0eX1CBQd9QTs4/k1cRUrji/K57zVanxPt77/AGhzAXkcnFgvy5JLRfCjUCCXlFv97RdXZW9Wxx/8L09jO/iF9t1Ip3JRyU3ZwurRwzV2Z/km6WCyvjlcvwyKUwNTUIczz4Nzm6Kzb51bSNj4vjRbMmQtuLRa2CuPw4lYW73X3HDk64GZSX6QODTbAqJDq3D1pfakG8ZVO3tI5UGo4e9hCYkRoADNFemuxuLVyXWcJHxketJBYMCrETHOwtHBa52DTVgqjHqvN09tKc0V9OpMa/vzo4MiIhcMI0jFmosHS3BmdSDz89dGBwWELjxFTh5hp/Lb8pLI2Hr81QRhjJhoqzY3qLNEjhw5nLSxGhAYwUtRgx8BvSOdGvgWPKXwr5yZWhTbyAayCMQ2egQoOcazyY2QrJhmARCiq4ixWefHdhscBfCuHull1EBMCv3K4G1QhPKYwRjnkzSofljcrthaWsGoI361Y26bOAufdWDeAXfdiY6o3GXl+XZ67jbXpmjBQ8yYjXbsJ/3qVCxPSfBFj1BUG8EtaM3zldHUmB4DywwlpeeHZ6ElDKB0sSsunNu8uSetjFS2mTnYncvKdacgWvJdXLzQyLa1OylfnzRYd2MprZ+CGZcozP0tTF8HhzVPFam6qoYd37m4+uF9eu14uPm7EKV96KF09W17NwV3NTaquAnMjV+WZyfKjR5WZKflU/p/CmEN9kX4Y21y5oRyDCn9l4rfK+YeefmM17Yzy0CnF+R6U6Nj/RKtzb+jFFsYkyxA7YEfCzoMdBv7AjoGdYSyHuJ+Ze1G7Exfxrl64I90c41Tb39T7Oz4WozhGIF7q6zfKtWZRIHb2eYbgFE2mRr4aTGfdvpYWJaZ69xOj9icjiIqKkY6zq1r3s9vW/dAJKixamx+t8TD1nsbGBFEJMWJvbd7XnU+wIktT0ST0mew+pGVWc8MYCL1PMhlz8lSIsWJE8bSJeF3tX+uhEOo9bE3UqI+t6eu9bN8BaxQPePqVRrKJ2GHef2JvHBGvCCIVDju7h6K2QKr72tpF7jDkiKMg04KohtDcYvawHGNLwm6n/t6C2WVNVEO9asKaxw8a5lEJHo30lbxj39EWW/pywmzC+nvG6Iqqtrqy1xJKmuejDN/DQdfOdNMiy3M1Z4wHgdL3bvur74X9oeIGGQM+eIFMsaHVKpDS+DuAjZhqFOgUFwMw0pjYqTZZaY0FyUaOCxEZJJUyZGU3lh/rxEY1x2bcUGusHJYao3gBPFYvrJWln/gXN2nuu2IPAAA=

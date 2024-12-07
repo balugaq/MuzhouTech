@@ -1,0 +1,26 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"蓝色-双肩包"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"寰宇星海:
+      "},{"italic":false,"color":"gray","text":"54 (背包)"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"ID:
+      <ID>"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"右键"},{"bold":true,"italic":false,"color":"gray","text":"
+      打开"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: RADIANT_BACKPACK
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: ac62cc5d-b9fa-4b93-9154-46bcbfc379c4
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWUxY2Q2N2Q5Y2NmZTU3NWQ3OGI3ZGMxOTgzNThjYmI1ZWMzZjNlNDFkYjgyNDU4YzA3NWQ1ZjgxM2JiZjBmOSJ9fX0=

@@ -1,0 +1,39 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DIAMOND_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"火"},{"bold":true,"italic":false,"color":"dark_aqua","text":"莱"},{"bold":true,"italic":false,"color":"blue","text":"伊"},{"bold":true,"italic":false,"color":"dark_blue","text":"头"},{"bold":true,"italic":false,"color":"dark_purple","text":"盔"}],"text":""}'
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 50
+      PROTECTION_FALL: 50
+      PROTECTION_FIRE: 50
+      PROTECTION_PROJECTILE: 50
+      PROTECTION_ENVIRONMENTAL: 50
+      OXYGEN: 50
+    attribute-modifiers:
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 40.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+        slot: HEAD
+        uuid: 49b14f9f-9c33-4ded-ade7-b2b3bf1c8c64
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 20.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+        slot: HEAD
+        uuid: 115f17d8-2928-4bd5-816d-98ac8df88902
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 20.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+        slot: HEAD
+        uuid: 91b9a1f7-5df1-4d97-af41-6a2980d729b0
+        operation: 0
+    Unbreakable: true

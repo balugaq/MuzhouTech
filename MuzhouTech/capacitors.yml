@@ -1,0 +1,1178 @@
+CHOU_CAPACITOR:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&c&l先辈电容'
+    lore:
+    - '&7哼!哼啊啊啊啊!'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 114,514 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 114514
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: GOLD_BLOCK
+      amount: 1
+    2:
+      material_type: mc
+      material: POISONOUS_POTATO
+      amount: 1
+    3:
+      material_type: mc
+      material: GOLD_BLOCK
+      amount: 1
+    4:
+      material_type: mc
+      material: POISONOUS_POTATO
+      amount: 1
+    5:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+      amount: 1
+    6:
+      material_type: mc
+      material: POISONOUS_POTATO
+      amount: 1
+    7:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    8:
+      material_type: mc
+      material: POISONOUS_POTATO
+      amount: 1
+    9:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+FEI_CAPACITOR:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&c&l费牌电容'
+    lore:
+    - '&7电容量小到极点了'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 1 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 4
+  capacity: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: mc
+      material: DIRT
+      amount: 1
+    4:
+      material_type: mc
+      material: DIRT
+      amount: 1
+    6:
+      material_type: mc
+      material: DIRT
+      amount: 1
+    8:
+      material_type: mc
+      material: DIRT
+      amount: 1
+HDDR:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&8&l混沌电容'
+    lore:
+    - ''
+    - '&e电容'
+    - '&8⇨ &e⚡&7 100,000,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 100000000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HDJH
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HDJH
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HDJH
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HDJH
+      amount: 1
+    5:
+      material_type: slimefun
+      material: VOID_CAPACITOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HDJH
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HDJH
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HDJH
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HDJH
+      amount: 1
+TLDR:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&8&l贪婪电容'
+    lore:
+    - ''
+    - '&e电容'
+    - '&8⇨ &e⚡&7 800,000,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 800000000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HDDR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: TLJZ3
+      amount: 1
+STORAGE_BATTERY:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&9&l蓄电池'
+    lore:
+    - '&7大容量的存电装置'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 900,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 900000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: IRON_BLOCK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: IRON_BLOCK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: IRON_BLOCK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: SUPER_MAGNETIC_FIELD_RING
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SUPER_MAGNETIC_FIELD_RING
+      amount: 1
+    6:
+      material_type: slimefun
+      material: SUPER_MAGNETIC_FIELD_RING
+      amount: 1
+    7:
+      material_type: slimefun
+      material: LATTICE_SILICON
+      amount: 1
+    8:
+      material_type: slimefun
+      material: LATTICE_SILICON
+      amount: 1
+    9:
+      material_type: slimefun
+      material: LATTICE_SILICON
+      amount: 1
+YAXING_HUB:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b&l亚星枢纽'
+    lore:
+    - '&7大容量的存电装置'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 45,000,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 45000000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CENTRAL_PROCESSING_UNIT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: PARTICLE_CONTAINER
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CENTRAL_PROCESSING_UNIT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: STEEL_PRODUCTS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: PARTICLE_CONTAINER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: STEEL_PRODUCTS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: TITANIUM_ALLOY
+      amount: 1
+    8:
+      material_type: slimefun
+      material: TITANIUM_ALLOY
+      amount: 1
+    9:
+      material_type: slimefun
+      material: TITANIUM_ALLOY
+      amount: 1
+ANNIHILATION_BASE_CAPACITANCE:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&d湮灭基础电容'
+    lore:
+    - '&7湮灭科技的基础电容'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 64,000,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 64000000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: VOID_CAPACITOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+H2_CAPACITOR:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b氢燃料电容'
+    lore:
+    - ''
+    - '&7绿色环保氢能源'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 5,120 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 5120
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: COATING
+      amount: 1
+    2:
+      material_type: slimefun
+      material: H2
+      amount: 1
+    3:
+      material_type: slimefun
+      material: COATING
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    7:
+      material_type: slimefun
+      material: DAMASCUS_STEEL_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HARDENED_METAL_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: DAMASCUS_STEEL_INGOT
+      amount: 1
+MAX_CAPA:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b&l最大电容'
+    lore:
+    - '&7不想介绍'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 2,147,483,647 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 2147483647
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HDDR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: TLDR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: STORAGE_BATTERY
+      amount: 1
+    4:
+      material_type: slimefun
+      material: YAXING_HUB
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ANNIHILATION_BASE_CAPACITANCE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: H2_CAPACITOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BEDROCK9
+      amount: 1
+    8:
+      material_type: slimefun
+      material: NTW_CAPACITOR_4
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1
+WXDR:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b&l微小电容'
+    lore:
+    - '&7造价简单'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 1 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: DIRT
+      amount: 1
+    4:
+      material_type: mc
+      material: DIRT
+      amount: 1
+    6:
+      material_type: mc
+      material: DIRT
+      amount: 1
+    8:
+      material_type: mc
+      material: DIRT
+      amount: 1
+CEDR:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&c&l臭恶电容'
+    lore:
+    - '&7不会还有人不知道114514吧？（悲）'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 114,514 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 114514
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: GOLD_BLOCK
+      amount: 1
+    3:
+      material_type: mc
+      material: GOLD_BLOCK
+      amount: 1
+    4:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    6:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    7:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    8:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    9:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+BOCCHI_DRI:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b波奇电力储存单元I'
+    lore:
+    - '&7波奇粒子的导电性决定了它非同小可'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 256 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 256
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_EGOBKL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_EGOBKL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_EGOBKL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_EGOBKL
+      amount: 1
+    5:
+      material_type: slimefun
+      material: REDSTONE_ALLOY
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_EGOBKL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_EGOBKL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_EGOBKL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_EGOBKL
+      amount: 1
+BOCCHI_DRII:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b波奇电力储存单元II'
+    lore:
+    - '&7波奇粒子的导电性决定了它非同小可'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 4,096 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 4096
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_DRI
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_DRI
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_DRI
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_DRI
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXI
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_DRI
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_DRI
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_DRI
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_DRI
+      amount: 1
+BOCCHI_DRIII:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b波奇电力储存单元III'
+    lore:
+    - '&7波奇粒子的导电性决定了它非同小可'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 45,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 45000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_DRII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_DRII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_DRII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_DRII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_DRII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_DRII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_DRII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_DRII
+      amount: 1
+BOCCHI_DRIIII:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b波奇电力储存单元IV'
+    lore:
+    - '&7波奇粒子的导电性决定了它非同小可'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 400,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 400000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_DRIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_DRIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_DRIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_DRIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXIII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_DRIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_DRIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_DRIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_DRIII
+      amount: 1
+BOCCHI_DRIIIII:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b波奇电力储存单元V'
+    lore:
+    - '&7波奇粒子的导电性决定了它非同小可'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 400,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 400000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_DRIIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_DRIIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_DRIIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_DRIIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXIIII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_DRIIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_DRIIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_DRIIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_DRIIII
+      amount: 1
+BOCCHI_DRIIIIII:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b波奇电力储存单元VI'
+    lore:
+    - '&7波奇粒子的导电性决定了它非同小可'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 4,000,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 4000000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_DRIIIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_DRIIIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_DRIIIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_DRIIIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXIIIII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_DRIIIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_DRIIIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_DRIIIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_DRIIIII
+      amount: 1
+BOCCHI_DRIIIIIII:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b波奇电力储存单元VII'
+    lore:
+    - '&7波奇粒子的导电性决定了它非同小可'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 210,000,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 210000000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXIIIIII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIII
+      amount: 1
+BOCCHI_DRIIIIIIII:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b波奇电力储存单元VIII'
+    lore:
+    - '&7波奇粒子的导电性决定了它非同小可'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 610,000,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 610000000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXIIIIIII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIII
+      amount: 1
+BOCCHI_DRIIIIIIIII:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b波奇电力储存单元VIII'
+    lore:
+    - '&7波奇粒子的导电性决定了它非同小可'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 1,410,000,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 1410000000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXIIIIIIII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIII
+      amount: 1
+BOCCHI_DRIIIIIIIIII:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&b波奇电力储存单元IX'
+    lore:
+    - '&7波奇粒子的导电性决定了它非同小可'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 1,910,000,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 1910000000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQSPHXIIIIIIIII
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIII
+      amount: 1
+BOCCHI_DRIIIIIIIIIII:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&c波奇电力储存单元MAX'
+    lore:
+    - '&7波奇粒子的导电性决定了它非同小可'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 2,000,000,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 2000000000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BOCCHI_BQZHENSHEN
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BOCCHI_DRIIIIIIIIII
+      amount: 1
+M87JJDR:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '{#F4A460}M87电容'
+    lore:
+    - '&7无尽的吞噬即是黑洞之力！'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 2,000,000,000 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 2000000000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: M87NJW
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: M87NJW
+      amount: 1
+ZHISHU_CAPACITOR:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&6&l最小质数电容'
+    lore:
+    - '&7最小质数：2'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 2 J 可存储'
+    material: REPEATER
+    amount: 1
+  capacity: 2
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    3:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    5:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    7:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    9:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+HESHU_CAPACITOR:
+  lateInit: false
+  item_group: rsc_capas
+  item:
+    name: '&6&l最小合数电容'
+    lore:
+    - '&7最小合数：4'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 4 J 可存储'
+    material: COMPARATOR
+    amount: 1
+  capacity: 4
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    3:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ZHISHU_CAPACITOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    7:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    9:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1

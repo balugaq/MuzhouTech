@@ -1,0 +1,35 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"火"},{"bold":true,"italic":false,"color":"dark_aqua","text":"莱"},{"bold":true,"italic":false,"color":"blue","text":"伊"},{"bold":true,"italic":false,"color":"dark_blue","text":"之"},{"bold":true,"italic":false,"color":"dark_purple","text":"剑"}],"text":""}'
+    enchants:
+      FIRE_ASPECT: 5
+      LOOT_BONUS_MOBS: 50
+      SWEEPING_EDGE: 3
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 36.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+        slot: HAND
+        uuid: 8b06d41e-c110-451c-ab25-85f29de3993f
+        operation: 0
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+        slot: HAND
+        uuid: 5542d055-dbac-4fe1-bc14-1152f2004002
+        operation: 0
+      GENERIC_ATTACK_KNOCKBACK:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.attack_knockback]
+        slot: HAND
+        uuid: 29104c4e-5ee7-4d1f-94d8-ebed315a068f
+        operation: 0
+    Unbreakable: true

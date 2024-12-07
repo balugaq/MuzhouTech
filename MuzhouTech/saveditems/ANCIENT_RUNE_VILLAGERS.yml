@@ -1,0 +1,30 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"古代符文
+      "},{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_red","text":"村民"},{"bold":true,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"右键村民清除"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"它的职业和交易列表."}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"村民将会在一段时间后"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"自己寻找新的工作."}],"text":""}'
+    custom-model-data: 2200543
+    ItemFlags:
+    - HIDE_POTION_EFFECTS
+    PublicBukkitValues:
+      slimefun:slimefun_item: ANCIENT_RUNE_VILLAGERS
+    firework-effect:
+      ==: Firework
+      flicker: false
+      trail: false
+      colors:
+      - ==: Color
+        RED: 160
+        BLUE: 5
+        GREEN: 20
+      fade-colors: []
+      type: BURST

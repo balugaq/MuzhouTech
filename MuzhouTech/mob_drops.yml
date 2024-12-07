@@ -1,0 +1,787 @@
+GHAST_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&f&l恶魂肉'
+    lore:
+    - '&7这是恶魂体内为数不多的肉'
+    - '&7据说味道极其鲜美'
+    material_type: mc
+    material: COOKED_MUTTON
+    amount: 1
+  entity: GHAST
+  chance: 40
+BAT_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&8&l蝙蝠肉'
+    lore:
+    - '&7野味？'
+    material_type: mc
+    material: COOKED_CHICKEN
+    amount: 1
+  entity: BAT
+  chance: 45
+CAT_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&e&l猫肉'
+    lore:
+    - '&7爱猫人士表示强烈谴责！'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+  entity: CAT
+  chance: 45
+DONKEY_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l驴肉'
+    lore:
+    - '&7我驴呢？'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+  entity: DONKEY
+  chance: 60
+HORSE_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l马肉'
+    lore:
+    - '&7你真的忍心这样对待你的坐骑吗？'
+    material_type: mc
+    material: BEEF
+    amount: 1
+  entity: DONKEY
+  chance: 60
+MULE_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l骡肉'
+    lore:
+    - '&7好好一个骡子，就这样被你杀掉了...'
+    material_type: mc
+    material: PORKCHOP
+    amount: 1
+  entity: DONKEY
+  chance: 60
+FOX_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l狐狸肉'
+    lore:
+    - '&7它肯定是偷你东西了！ovo'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+  entity: FOX
+  chance: 50
+PARROT_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l鹦鹉肉'
+    lore:
+    - '&7鹦鹉那么可爱，你为什么要杀他！'
+    material_type: mc
+    material: BEEF
+    amount: 1
+  entity: PARROT
+  chance: 55
+SQUID_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l鱿鱼肉'
+    lore:
+    - '&7烤起来实在是香！'
+    material_type: mc
+    material: RABBIT
+    amount: 1
+  entity: SQUID
+  chance: 55
+STRIDER_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l炽足兽肉'
+    lore:
+    - '&7结束了工具人的一生'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+  entity: STRIDER
+  chance: 55
+VILLAGER_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l人肉'
+    lore:
+    - '&7“村 庄 英 雄”'
+    material_type: mc
+    material: BEEF
+    amount: 1
+  entity: VILLAGER
+  chance: 55
+WANDERING_TRADER_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l流浪商人肉'
+    lore:
+    - '&7奸商的一生'
+    material_type: mc
+    material: BEEF
+    amount: 1
+  entity: WANDERING_TRADER
+  chance: 60
+TURTLE_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l海龟肉'
+    lore:
+    - '&7惨！'
+    material_type: mc
+    material: PORKCHOP
+    amount: 1
+  entity: TURTLE
+  chance: 55
+GIANT_ROU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l巨尸肉'
+    lore:
+    - '&7无畏的勇者啊！'
+    - '&8杀死巨人僵尸掉落'
+    material_type: mc
+    material: ROTTEN_FLESH
+    amount: 1
+  entity: GIANT
+  chance: 60
+BAT_SASHIMI:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b蝙蝠刺身'
+    lore:
+    - '&7啊哈~吃完就是传染源！'
+    material_type: mc
+    material: RABBIT
+    amount: 1
+  entity: BAT
+  chance: 25
+CAT_MEAT:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b猫猫肉'
+    lore:
+    - '&7猫猫那么可爱你下的去口？'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+  entity: CAT
+  chance: 20
+DONKEY_OF_MEAT:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b驴肉'
+    lore:
+    - '&7你是完全没肉吃了是吗？'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+  entity: DONKEY
+  chance: 45
+FOX_MEAT:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b狐狸肉'
+    lore:
+    - '&7爱狐人士表示顺着网线过去干你'
+    material_type: mc
+    material: RABBIT
+    amount: 1
+  entity: FOX
+  chance: 25
+HOGLIN_MEAT:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b疣猪肉'
+    lore:
+    - '&7被撅了？那就把它吃了！'
+    material_type: mc
+    material: PORKCHOP
+    amount: 1
+  entity: HOGLIN
+  chance: 65
+HORSE_MEAT:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b马肉'
+    lore:
+    - '&7你是什么都不放过啊，好好的坐骑……'
+    material_type: mc
+    material: BEEF
+    amount: 1
+  entity: HORSE
+  chance: 65
+LLAMA_MEAT:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b羊驼肉'
+    lore:
+    - '&7口感应该和别的羊差不多'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+  entity: LLAMA
+  chance: 40
+MULE_MEAT:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b骡肉'
+    lore:
+    - '&7继驴之后就是骡吗？'
+    material_type: mc
+    material: PORKCHOP
+    amount: 1
+  entity: MULE
+  chance: 40
+TURTLE_MEAT:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b海龟肉'
+    lore:
+    - '&7属实是惨！'
+    material_type: mc
+    material: PORKCHOP
+    amount: 1
+  entity: TURTLE
+  chance: 15
+SIYECAO:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&a四叶草'
+    lore:
+    - ''
+    - '&7幸运的象征'
+    - '&7击杀美西螈获得'
+    material_type: skull_hash
+    material: c74501db75f9a50e73bcf810382686e64957e90de646e86fdd8e31d6fd4b0a0d
+    amount: 1
+  entity: AXOLOTL
+  chance: 100
+SHENGWUKEJI_ZHUDEQIYUAN:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b猪干细胞团簇'
+    lore:
+    - '&7猪的起源'
+    material_type: mc
+    material: SEA_PICKLE
+    amount: 1
+  entity: PIG
+  chance: 70
+SHENGWUKEJI_NIUDEQIYUAN:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b牛干细胞团簇'
+    lore:
+    - '&7牛的起源'
+    material_type: mc
+    material: SEA_PICKLE
+    amount: 1
+  entity: COW
+  chance: 70
+SHENGWUKEJI_MADEQIYUAN:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b马干细胞团簇'
+    lore:
+    - '&7马的起源'
+    material_type: mc
+    material: SEA_PICKLE
+    amount: 1
+  entity: HORSE
+  chance: 70
+SHENGWUKEJI_YANGDEQIYUAN:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b羊干细胞团簇'
+    lore:
+    - '&7羊的起源'
+    material_type: mc
+    material: SEA_PICKLE
+    amount: 1
+  entity: SHEEP
+  chance: 70
+SHENGWUKEJI_LANXIBAOTUANCU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b蓝细胞团簇'
+    lore:
+    - '&7凝胶的起源'
+    material_type: mc
+    material: SEA_PICKLE
+    amount: 1
+  entity: SLIME
+  chance: 70
+SHENGWUKEJI_MOYUGANXIBAOTUANCU:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b墨鱼干细胞团簇'
+    lore:
+    - '&7墨鱼的起源'
+    material_type: mc
+    material: SEA_PICKLE
+    amount: 1
+  entity: SQUID
+  chance: 7
+SHENGWUKEJI_XUEYULUAN:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b鳕鱼卵'
+    lore:
+    - '&7鳕鱼之初'
+    material_type: mc
+    material: SEA_PICKLE
+    amount: 1
+  entity: COD
+  chance: 50
+SHENGWUKEJI_GUIYULUAN:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b鲑鱼卵'
+    lore:
+    - '&7鲑鱼之初'
+    material_type: mc
+    material: SEA_PICKLE
+    amount: 1
+  entity: SALMON
+  chance: 50
+FEIXIANXINGSW:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&5&l非线性思维'
+    lore:
+    - '&7一种思维轨迹'
+    material_type: skull_hash
+    material: dd2f781f03c365bbc5dd1e7186ab38dc69465e836c9fe066a9a844f34a4da92
+    amount: 1
+  entity: BAT
+  chance: 12
+YASUOKONGJIAN:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&c&l压缩空间'
+    lore:
+    - '&7一种空间结构'
+    material_type: skull_hash
+    material: ef253aedd1ef3cf546dcc909df36c19fd7d696f7cabc02b06abd8d0642bd655f
+    amount: 1
+  entity: ENDERMITE
+  chance: 9
+DUIDIETEZHEN:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&e&l堆叠特征'
+    lore:
+    - '&7一种堆叠状态'
+    material_type: skull_hash
+    material: ad66b25fbf685b09d33ecab17db4135fccecc3016d9e8045249e818759f2feb6
+    amount: 1
+  entity: SILVERFISH
+  chance: 14
+CREEPER_COAL_HEART:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&4&l碳化的心脏'
+    lore:
+    - '&7死灰无法复燃'
+    material_type: skull_hash
+    material: 2c50e3e6150d07cca09ed707b244043c9437dbd1be98ee08ae0340ccb6d58c89
+    amount: 1
+  entity: CREEPER
+  chance: 1
+BLAZE_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l烈焰人核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: BLAZE
+  chance: 1
+CAVE_SPIDER_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l洞穴蜘蛛核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: CAVE_SPIDER
+  chance: 1
+CHICKEN_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l鸡核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: CHICKEN
+  chance: 1
+COW_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l牛核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: COW
+  chance: 1
+CREEPER_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l苦力怕核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: CREEPER
+  chance: 1
+ENDERMAN_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l末影人核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: ENDERMAN
+  chance: 1
+ENDERMITE_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l末影螨核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: ENDERMITE
+  chance: 1
+GHAST_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l恶魂核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: GHAST
+  chance: 1
+GUARDIAN_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l守卫者核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: GUARDIAN
+  chance: 1
+HORSE_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l马核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: HORSE
+  chance: 1
+MAGMA_CUBE_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l岩浆怪核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: MAGMA_CUBE
+  chance: 1
+MUSHROOM_COW_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l哞菇核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: MUSHROOM_COW
+  chance: 1
+OCELOT_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l豹猫核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: OCELOT
+  chance: 1
+PIG_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l猪核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: PIG
+  chance: 1
+RABBIT_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l兔子核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: RABBIT
+  chance: 1
+SHEEP_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l绵羊核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: SHEEP
+  chance: 1
+SILVERFISH_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l蠢虫核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: SILVERFISH
+  chance: 1
+SKELETON_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l骷髅核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: SKELETON
+  chance: 1
+SLIME_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l史莱姆核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: SLIME
+  chance: 1
+SPIDER_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l蜘蛛核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: SPIDER
+  chance: 1
+SQUID_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l鱿鱼核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: SQUID
+  chance: 1
+VILLAGER_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l村民核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: VILLAGER
+  chance: 1
+WITHER_SKELETON_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l凋零骷髅核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: WITHER_SKELETON
+  chance: 1
+WITCH_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l女巫核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: WITCH
+  chance: 1
+WOLF_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l狼核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: WOLF
+  chance: 1
+ZOMBIE_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l僵尸核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: ZOMBIE
+  chance: 1
+IRON_GOLEM_HEXING:
+  lateInit: false
+  item_group: rsc_mob_drops
+  item:
+    name: '&b&l铁傀儡核心'
+    lore:
+    - '&7&l无比强大的核心!'
+    - '&7&l宇宙凝聚的结晶'
+    material_type: mc
+    material: DIAMOND
+    amount: 1
+  entity: IRON_GOLEM
+  chance: 1

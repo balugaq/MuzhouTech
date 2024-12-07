@@ -1,0 +1,15 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"潜声女孩头套"}],"text":""}'
+    Unbreakable: true
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: 9bf5f679-a602-44e8-9962-0df56f9b9142
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzExNWY0MWMxY2I2ZDI4ZjgxZWJlMGNiNjZkMDY0OTY5MDE2OGI0NDMzNjFlZjEzMTAwODQyOWViOTgyYmRhOCJ9fX0=

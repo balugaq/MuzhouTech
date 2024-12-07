@@ -1,0 +1,44 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LEATHER_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_blue","text":"彩"},{"italic":false,"color":"dark_green","text":"虹"},{"italic":false,"color":"yellow","text":"胸"},{"italic":false,"color":"red","text":"甲"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"自然的再生！"}],"text":""}'
+    enchants:
+      MENDING: 1
+      PROTECTION_ENVIRONMENTAL: 10
+      THORNS: 1
+      DURABILITY: 32
+    attribute-modifiers:
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 10.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+        slot: CHEST
+        uuid: 0a53425c-822e-4ac2-8b92-8044b1c95c9b
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.1
+        name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+        slot: CHEST
+        uuid: 831dde42-81d0-491d-bc7b-a77a33a9abbc
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 5.0
+        name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+        slot: CHEST
+        uuid: 59527615-c1ff-4fe3-8c60-c7897e9c4961
+        operation: 0
+    ItemFlags:
+    - HIDE_DYE
+    color:
+      ==: Color
+      RED: 135
+      BLUE: 56
+      GREEN: 151
